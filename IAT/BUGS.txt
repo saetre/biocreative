@@ -1,0 +1,16 @@
+BUGS
+===============================
+&#8722; instead of "-" in file(s): merged-species-ascii/2684697.nxml
+SOLUTION: NOT a bug.... after all
+===============================
+gene, Starting(Entrez:72475)
+ and
+cell (EntrezGene:43767|FlyBase:FBgn0004859|PIR:A38926|SWISS-PROT:P19538)
+
+recognized as EntrezGenes in most files!!
+E.g (cell): PMC2684697, 72-76 125-129 156-161 624-628 849-853
+
+SOLUTION: Filter by recognized species...
+
+===================================
+

@@ -1,0 +1,7 @@
+TODO:
+Reduce score from Materials and Methods Section!
+
+http://www-tsujii.is.s.u-tokyo.ac.jp/satre/biocreative/GNTrain/viewer.php?file=2577925&pass=1
+E. Coli is only mentioned in Methods and Supplemental material (which should explicitly not be annotated...)
+(BUT this could be helpfull to determine the species, however, not in this case...)
+

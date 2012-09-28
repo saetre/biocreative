@@ -1,0 +1,30 @@
+###begin article-title 0
+###xml 115 120 <span type="species:ncbi:9606">human</span>
+Differential effects of Rad52p overexpression on gene targeting and extrachromosomal homologous recombination in a human cell line
+###end article-title 0
+###begin p 8
+###xml 221 228 221 228 <italic xmlns:xlink="http://www.w3.org/1999/xlink">in vivo</italic>
+###xml 230 232 230 232 <xref xmlns:xlink="http://www.w3.org/1999/xlink" ref-type="bibr" rid="gkf145c37">37</xref>
+###xml 260 265 260 265 <italic xmlns:xlink="http://www.w3.org/1999/xlink">RAD51</italic>
+###xml 269 274 269 274 <italic xmlns:xlink="http://www.w3.org/1999/xlink">RAD52</italic>
+###xml 366 367 366 367 <xref xmlns:xlink="http://www.w3.org/1999/xlink" ref-type="bibr" rid="gkf145c3">3</xref>
+###xml 433 438 433 438 <italic xmlns:xlink="http://www.w3.org/1999/xlink">RAD51</italic>
+###xml 540 542 540 542 <xref xmlns:xlink="http://www.w3.org/1999/xlink" ref-type="bibr" rid="gkf145c38">38</xref>
+###xml 543 545 543 545 <xref xmlns:xlink="http://www.w3.org/1999/xlink" ref-type="bibr" rid="gkf145c40">40</xref>
+###xml 624 626 624 626 <xref xmlns:xlink="http://www.w3.org/1999/xlink" ref-type="bibr" rid="gkf145c41">41</xref>
+###xml 627 629 627 629 <xref xmlns:xlink="http://www.w3.org/1999/xlink" ref-type="bibr" rid="gkf145c42">42</xref>
+###xml 665 670 665 670 <italic xmlns:xlink="http://www.w3.org/1999/xlink">RAD52</italic>
+###xml 813 815 813 815 <xref xmlns:xlink="http://www.w3.org/1999/xlink" ref-type="bibr" rid="gkf145c43">43</xref>
+###xml 816 818 816 818 <xref xmlns:xlink="http://www.w3.org/1999/xlink" ref-type="bibr" rid="gkf145c44">44</xref>
+###xml 971 995 971 995 <italic xmlns:xlink="http://www.w3.org/1999/xlink">Saccharomyces cerevisiae</italic>
+###xml 1120 1122 1120 1122 <xref xmlns:xlink="http://www.w3.org/1999/xlink" ref-type="bibr" rid="gkf145c45">45</xref>
+###xml 1309 1311 1309 1311 <xref xmlns:xlink="http://www.w3.org/1999/xlink" ref-type="bibr" rid="gkf145c46">46</xref>
+###xml 1366 1373 1366 1373 <italic xmlns:xlink="http://www.w3.org/1999/xlink">in vivo</italic>
+###xml 102 107 <span type="species:ncbi:4932">yeast</span>
+###xml 111 116 <span type="species:ncbi:9606">human</span>
+###xml 238 243 <span type="species:ncbi:4932">yeast</span>
+###xml 971 995 <span type="species:ncbi:4932">Saccharomyces cerevisiae</span>
+###xml 1006 1011 <span type="species:ncbi:9606">human</span>
+###xml 1213 1218 <span type="species:ncbi:9606">human</span>
+Whereas biochemical analyses suggest an important degree of conservation in RAD protein function from yeast to human cells, genetic gain- or loss-of-function experiments indicate that there are some important differences in vivo (37). In yeast, loss of either RAD51 or RAD52 function seriously reduces resistance to ionising radiation (IR), but cells remain viable (3). However, in vertebrates, gene disruption experiments show that RAD51, and therefore presumably DSB repair by strand-invasion type mechanisms, is essential for viability (38-40), and it is thought that such repair is an essential part of DNA replication (41,42). On the other hand, disruption of RAD52 in vertebrate cells is not lethal, does not affect resistance to IR and results in only a small reduction in the frequency of gene targeting (43,44). In vertebrate cells, there is, therefore, at least a degree of redundancy for the role of Rad52p in DSB repair by HR. Nevertheless, overexpression of Saccharomyces cerevisiae Rad52p in human tumour cells caused a 2-fold rise in resistance to IR accompanied by a 12-fold rise in extrachromosomal HR (45). A similar increase in radiation resistance was reported for monkey cells overexpressing human Rad52p and this was accompanied by a 3-fold rise in the frequency of intrachromosomal HR (46). Together these studies provide clear evidence of an in vivo role, albeit non-essential, for Rad52p in DSB repair by HR.
+###end p 8

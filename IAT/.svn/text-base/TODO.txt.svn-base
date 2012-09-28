@@ -1,0 +1,24 @@
+TODO
+0. Add to Okazaki-sans paper... (tomorrow night)
+
+1. Fix gene to PMC index (Array)
+
+2. Fix Look-up of gene-names in gnsuite
+
+3. Link to external databases
+
+4. Add/Delete Genes
+
+4. Edit existing Genes
+
+5. Re-ranking
+
+5. Try to fix sorting of name and species
+
+
+
+
+Check out merging 
+/home/wijs/satre/public_html/biocreative/IAT/table.php~81:mergeGene, oldGene is Array ( [color] => 0 [conf] => 0.167 [fragments] => Array ( [abstract] => Array ( [0] => 362-366 ) ) ) 
+for 
+pmc http://www-tsujii.is.s.u-tokyo.ac.jp/satre/biocreative/IAT/viewer.php?file=97588

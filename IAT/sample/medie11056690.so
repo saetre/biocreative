@@ -1,0 +1,609 @@
+0	3918	annotation
+1	573	attribution
+574	2245	linguistic_annotation
+576	2242	article	id="medline09n0436:a12112"
+576	576	bib	Article.Journal.ISSN="1465-5411"	PMID="11056690"
+576	585	PMID
+585	596	DateCreated
+585	590	Year
+590	593	Month
+593	596	Day
+596	607	DateCompleted
+596	601	Year
+601	604	Month
+604	607	Day
+607	618	DateRevised
+607	612	Year
+612	615	Month
+615	618	Day
+618	1760	Article.orig	PubModel="Print-Electronic"
+618	685	Journal
+618	628	ISSN	IssnType="Print"
+628	637	JournalIssue	CitedMedium="Print"
+628	630	Volume
+630	632	Issue
+632	637	PubDate
+632	637	Year
+637	666	Title
+666	685	ISOAbbreviation
+685	748	ArticleTitle
+685	748	sentence	sentence_id="s0" parse_status="success"
+685	746	phrase	id="c0" cat="S" xcat="" head="c1" sem_head="c1" schema="subj_head" lex_head="t0"
+685	712	phrase	id="c2" cat="NP" xcat="" head="c3" sem_head="c3" schema="empty_spec_head" lex_head="t1"
+685	712	phrase	id="c3" cat="NX" xcat="" head="c4" sem_head="c4" schema="head_mod" lex_head="t1"
+685	704	phrase	id="c4" cat="NX" xcat="" head="c5" sem_head="c5" schema="mod_head" lex_head="t1"
+685	697	phrase	id="c6" cat="ADJP" xcat="" head="t2" sem_head="t2" lex_head="t2"
+685	697	word	id="t2" cat="ADJ" pos="JJ" base="polymorphic" lexentry="[&lt;ADJP.adj&gt;]N" pred="adj_arg1" arg1="c5"
+685	685	sentence_type	type="TITLE"
+697	704	phrase	id="c5" cat="NX" xcat="" head="t1" sem_head="t1" lex_head="t1"
+697	704	word	id="t1" cat="np" pos="NN" base="repeat" lexentry="[D&lt;N.3sg&gt;]_lxm" pred="noun_arg0"
+704	712	phrase	id="c7" cat="PP" xcat="" head="c8" sem_head="c8" schema="head_comp" lex_head="t3"
+704	707	phrase	id="c8" cat="PX" xcat="" head="t3" sem_head="t3" lex_head="t3"
+704	707	word	id="t3" cat="P" pos="IN" base="in" lexentry="N[&lt;P&gt;NP.acc]_lxm" pred="prep_arg12" arg1="c4" arg2="c9"
+707	712	phrase	id="c9" cat="NP" xcat="" head="c10" sem_head="c10" schema="empty_spec_head" lex_head="t4"
+707	712	phrase	id="c10" cat="NX" xcat="" head="t4" sem_head="t4" lex_head="t4"
+707	712	word	id="t4" cat="np" pos="NN" base="aib1" lexentry="[D&lt;N.3sg&gt;]_lxm" pred="noun_arg0"
+712	746	phrase	id="c1" cat="VP" xcat="" head="c11" sem_head="c12" schema="head_comp" lex_head="t0"
+712	721	phrase	id="c11" cat="VX" xcat="" head="c13" sem_head="c13" schema="head_mod" lex_head="t0"
+712	717	phrase	id="c13" cat="VX" xcat="" head="t0" sem_head="t0" lex_head="t0"
+712	717	word	id="t0" cat="vp" pos="VBZ" base="do" aux="do" lexentry="[NP&lt;V.do.bse&gt;VP.bse]_sctl_lxm-singular3rd_verb_rule" pred="aux_arg12" arg1="c2" arg2="c12"
+717	721	phrase	id="c14" cat="ADVP" xcat="" head="t5" sem_head="t5" lex_head="t5"
+717	721	word	id="t5" cat="ADV" pos="RB" base="not" lexentry="V[&lt;ADVP&gt;]" pred="adj_arg1" arg1="c12"
+721	746	phrase	id="c12" cat="VP" xcat="" head="c15" sem_head="c15" schema="head_comp" lex_head="t6"
+721	727	event_expression	id="ee0" event_type="Regulation" arg1="c2" arg2="c16"
+721	727	phrase	id="c15" cat="VX" xcat="" head="t6" sem_head="t6" lex_head="t6"
+721	727	word	id="t6" cat="vp" pos="VB" base="alter" tense="present" aspect="none" voice="active" aux="minus" lexentry="[NP.nom&lt;V.bse&gt;NP.acc]_lxm" pred="verb_arg12" arg1="c2" arg2="c16"
+727	746	phrase	id="c16" cat="NP" xcat="" head="c17" sem_head="c17" schema="empty_spec_head" lex_head="t7"
+727	746	phrase	id="c17" cat="NX" xcat="" head="c18" sem_head="c18" schema="mod_head" lex_head="t7"
+727	734	phrase	id="c19" cat="NP" xcat="" head="t8" sem_head="t8" lex_head="t8"
+727	734	word	id="t8" cat="np" pos="NN" base="breast" lexentry="[D&lt;N.3sg&gt;]_lxm-noun_adjective_rule" pred="noun_arg1" arg1="c18"
+734	746	phrase	id="c18" cat="NX" xcat="" head="c20" sem_head="c20" schema="mod_head" lex_head="t7"
+734	741	phrase	id="c21" cat="NP" xcat="" head="t9" sem_head="t9" lex_head="t9"
+734	741	word	id="t9" cat="np" pos="NN" base="cancer" lexentry="[D&lt;N.3sg&gt;]_lxm-noun_adjective_rule" pred="noun_arg1" arg1="c20"
+741	746	phrase	id="c20" cat="NX" xcat="" head="t7" sem_head="t7" lex_head="t7"
+741	746	word	id="t7" cat="np" pos="NN" base="risk" lexentry="[D&lt;N.3sg&gt;]_lxm" pred="noun_arg0"
+748	755	Pagination
+748	755	MedlinePgn
+755	1247	Abstract
+755	1247	AbstractText
+755	980	sentence	sentence_id="s1" parse_status="success"
+755	978	phrase	id="c22" cat="NP" xcat="" head="c23" sem_head="c23" schema="empty_spec_head" lex_head="t10"
+755	978	phrase	id="c23" cat="NX" xcat="" head="c24" sem_head="c24" schema="head_mod" lex_head="t10"
+755	765	phrase	id="c24" cat="NX" xcat="" head="t10" sem_head="t10" lex_head="t10"
+755	765	word	id="t10" cat="np" pos="NN" base="statement" lexentry="[D&lt;N.3sg&gt;]_lxm" pred="noun_arg0"
+755	755	sentence_type	type="OBJECTIVE"
+765	978	phrase	id="c25" cat="PP" xcat="" head="c26" sem_head="c26" schema="head_comp" lex_head="t11"
+765	768	phrase	id="c26" cat="PX" xcat="" head="t11" sem_head="t11" lex_head="t11"
+765	768	word	id="t11" cat="P" pos="IN" base="of" lexentry="N[&lt;P&gt;NP.acc]_lxm" pred="prep_arg12" arg1="c24" arg2="c27"
+768	978	phrase	id="c27" cat="NP" xcat="" head="c28" sem_head="c28" schema="head_mod" lex_head="t12"
+768	777	phrase	id="c28" cat="NP" xcat="" head="c29" sem_head="c29" schema="empty_spec_head" lex_head="t12"
+768	777	phrase	id="c29" cat="NX" xcat="" head="t12" sem_head="t12" lex_head="t12"
+768	777	word	id="t12" cat="np" pos="NNS" base="finding" lexentry="[D&lt;N.3sg&gt;]_lxm-plural_noun_rule" pred="noun_arg0"
+777	978	phrase	id="c30" cat="PN" xcat="" head="c31" sem_head="c31" schema="head_comp" lex_head="t13"
+777	779	phrase	id="c31" cat="PN" xcat="" head="t13" sem_head="t13" lex_head="t13"
+777	779	word	id="t13" cat="PN" pos=":" base="-colon-" lexentry="NP[&lt;PU&gt;S.decl]" pred="app_arg12" arg1="c28" arg2="c32"
+779	978	phrase	id="c32" cat="S" xcat="" head="c33" sem_head="c33" schema="subj_head" lex_head="t14"
+779	782	phrase	id="c34" cat="NP" xcat="" head="t15" sem_head="t15" lex_head="t15"
+779	782	word	id="t15" cat="np" pos="PRP" base="we" lexentry="[&lt;NP.no3sg.nom&gt;]" pred="noun_arg0"
+782	978	phrase	id="c33" cat="VP" xcat="" head="c35" sem_head="c35" schema="head_comp" lex_head="t14"
+782	791	phrase	id="c35" cat="VX" xcat="" head="t14" sem_head="t14" lex_head="t14"
+782	791	word	id="t14" cat="vp" pos="VBD" base="assess" tense="past" aspect="none" voice="active" aux="minus" lexentry="[NP.nom&lt;V.bse&gt;NP.acc]_lxm-past_verb_rule" pred="verb_arg12" arg1="c34" arg2="c36"
+791	978	phrase	id="c36" cat="NP" xcat="" head="c37" sem_head="c37" schema="spec_head" lex_head="t16"
+791	795	phrase	id="c38" cat="DP" xcat="" head="t17" sem_head="t17" lex_head="t17"
+791	795	word	id="t17" cat="D" pos="DT" base="the" lexentry="[&lt;D&gt;]N" pred="det_arg1" arg1="c37"
+795	978	phrase	id="c37" cat="NX" xcat="" head="c39" sem_head="c39" schema="head_mod" lex_head="t16"
+795	807	event_expression	id="ee1" event_type="Binding" arg1="unk" arg2="c40"
+795	807	phrase	id="c39" cat="NX" xcat="" head="t16" sem_head="t16" lex_head="t16"
+795	807	word	id="t16" cat="np" pos="NN" base="association" lexentry="[D&lt;N.3sg&gt;]_lxm" pred="noun_arg0"
+807	978	phrase	id="c41" cat="PP" xcat="" head="c42" sem_head="c42" schema="head_comp" lex_head="t18"
+807	815	phrase	id="c42" cat="PX" xcat="" head="t18" sem_head="t18" lex_head="t18"
+807	815	word	id="t18" cat="P" pos="IN" base="between" lexentry="N[&lt;P&gt;NP.acc]_lxm" pred="prep_arg12" arg1="c39" arg2="c40"
+815	978	phrase	id="c40" cat="NP" xcat="" head="c43" sem_head="c43" schema="spec_head" lex_head="t19"
+815	817	phrase	id="c44" cat="DP" xcat="" head="t20" sem_head="t20" lex_head="t20"
+815	817	word	id="t20" cat="D" pos="DT" base="a" lexentry="[&lt;D&gt;]N" pred="det_arg1" arg1="c43"
+817	978	phrase	id="c43" cat="NX" xcat="" head="c45" sem_head="c45" schema="head_mod" lex_head="t19"
+817	931	phrase	id="c45" cat="NX" xcat="" head="c46" sem_head="c46" schema="head_mod" lex_head="t19"
+817	878	phrase	id="c46" cat="NX" xcat="" head="c47" sem_head="c47" schema="head_mod" lex_head="t19"
+817	847	phrase	id="c47" cat="NX" xcat="" head="c48" sem_head="c48" schema="mod_head" lex_head="t19"
+817	827	phrase	id="c49" cat="NP" xcat="" head="t21" sem_head="t21" lex_head="t21"
+817	827	word	id="t21" cat="np" pos="NN" base="glutamine" lexentry="[D&lt;N.3sg&gt;]_lxm-noun_adjective_rule" pred="noun_arg1" arg1="c48"
+827	847	phrase	id="c48" cat="NX" xcat="" head="c50" sem_head="c50" schema="mod_head" lex_head="t19"
+827	834	phrase	id="c51" cat="NP" xcat="" head="t22" sem_head="t22" lex_head="t22"
+827	834	word	id="t22" cat="np" pos="NN" base="repeat" lexentry="[D&lt;N.3sg&gt;]_lxm-noun_adjective_rule" pred="noun_arg1" arg1="c50"
+834	847	phrase	id="c50" cat="NX" xcat="" head="t19" sem_head="t19" lex_head="t19"
+834	847	word	id="t19" cat="np" pos="NN" base="polymorphism" lexentry="[D&lt;N.3sg&gt;]_lxm" pred="noun_arg0"
+847	878	phrase	id="c52" cat="PP" xcat="" head="c53" sem_head="c53" schema="head_comp" lex_head="t23"
+847	850	phrase	id="c53" cat="PX" xcat="" head="t23" sem_head="t23" lex_head="t23"
+847	850	word	id="t23" cat="P" pos="IN" base="in" lexentry="N[&lt;P&gt;NP.acc]_lxm" pred="prep_arg12" arg1="c47" arg2="c54"
+850	878	phrase	id="c54" cat="NP" xcat="" head="c55" sem_head="c55" schema="empty_spec_head" lex_head="t24"
+850	878	phrase	id="c55" cat="NX" xcat="" head="c56" sem_head="c56" schema="mod_head" lex_head="t24"
+850	873	phrase	id="c57" cat="NP" xcat="COOD" head="c58" sem_head="c58" schema="coord_left" lex_head="t25"
+850	855	phrase	id="c58" cat="NP" xcat="" head="t25" sem_head="t25" lex_head="t25"
+850	855	word	id="t25" cat="np" pos="NN" base="aib1" lexentry="[D&lt;N.3sg&gt;]_lxm-noun_adjective_rule" pred="noun_arg1" arg1="c56"
+855	873	phrase	id="c59" cat="COOD" xcat="" head="c60" sem_head="c60" schema="coord_right" lex_head="t26"
+855	859	phrase	id="c60" cat="CONJP" xcat="" head="t26" sem_head="t26" lex_head="t26"
+855	859	word	id="t26" cat="CONJ" pos="CC" base="and" lexentry="[N&lt;CONJP&gt;N]" pred="coord_arg12" arg1="c58" arg2="c61"
+859	873	phrase	id="c61" cat="NP" xcat="" head="c62" sem_head="c62" schema="mod_head" lex_head="t27"
+859	866	phrase	id="c63" cat="NP" xcat="" head="t28" sem_head="t28" lex_head="t28"
+859	866	word	id="t28" cat="np" pos="NN" base="breast" lexentry="[&lt;NP.3sg.adj&gt;]NP.adj" pred="noun_arg1" arg1="c62"
+866	873	phrase	id="c62" cat="NP" xcat="" head="t27" sem_head="t27" lex_head="t27"
+866	873	word	id="t27" cat="np" pos="NN" base="cancer" lexentry="[D&lt;N.3sg&gt;]_lxm-noun_adjective_rule" pred="noun_arg1" arg1="c56"
+873	878	phrase	id="c56" cat="NX" xcat="" head="t24" sem_head="t24" lex_head="t24"
+873	878	word	id="t24" cat="np" pos="NN" base="risk" lexentry="[D&lt;N.3sg&gt;]_lxm" pred="noun_arg0"
+878	931	phrase	id="c64" cat="PP" xcat="" head="c65" sem_head="c65" schema="head_comp" lex_head="t29"
+878	881	phrase	id="c65" cat="PX" xcat="" head="t29" sem_head="t29" lex_head="t29"
+878	881	word	id="t29" cat="P" pos="IN" base="in" lexentry="N[&lt;P&gt;NP.acc]_lxm" pred="prep_arg12" arg1="c46" arg2="c66"
+881	931	phrase	id="c66" cat="NP" xcat="" head="c67" sem_head="c67" schema="spec_head" lex_head="t30"
+881	883	phrase	id="c68" cat="DP" xcat="" head="t31" sem_head="t31" lex_head="t31"
+881	883	word	id="t31" cat="D" pos="DT" base="a" lexentry="[&lt;D&gt;]N" pred="det_arg1" arg1="c67"
+883	931	phrase	id="c67" cat="NX" xcat="" head="c69" sem_head="c69" schema="head_mod" lex_head="t30"
+883	902	phrase	id="c69" cat="NX" xcat="" head="c70" sem_head="c70" schema="mod_head" lex_head="t30"
+883	896	phrase	id="c71" cat="ADJP" xcat="" head="t32" sem_head="t32" lex_head="t32"
+883	896	word	id="t32" cat="ADJ" pos="JJ" base="case-control" lexentry="[&lt;ADJP.adj&gt;]N" pred="adj_arg1" arg1="c70"
+896	902	phrase	id="c70" cat="NX" xcat="" head="t30" sem_head="t30" lex_head="t30"
+896	902	word	id="t30" cat="np" pos="NN" base="study" lexentry="[D&lt;N.3sg&gt;]_lxm" pred="noun_arg0"
+902	931	phrase	id="c72" cat="PN" xcat="" head="c73" sem_head="c73" schema="head_comp" lex_head="t33"
+902	929	phrase	id="c73" cat="PN" xcat="" head="c74" sem_head="c74" schema="head_comp" lex_head="t33"
+902	904	phrase	id="c74" cat="PN" xcat="" head="t33" sem_head="t33" lex_head="t33"
+902	904	word	id="t33" cat="PN" pos="-LRB-" base="-lrb-" lexentry="N[&lt;PU&gt;NPPU]" pred="lparen_arg123" arg1="c69" arg3="c75" arg2="c76"
+904	929	phrase	id="c76" cat="NP" xcat="" head="c77" sem_head="c77" schema="head_mod" lex_head="t34"
+904	914	phrase	id="c77" cat="NP" xcat="" head="c78" sem_head="c78" schema="empty_spec_head" lex_head="t34"
+904	914	phrase	id="c78" cat="NX" xcat="" head="c79" sem_head="c79" schema="mod_head" lex_head="t34"
+904	908	phrase	id="c80" cat="ADJP" xcat="" head="t35" sem_head="t35" lex_head="t35"
+904	908	word	id="t35" cat="ADJ" pos="CD" base="-number-" lexentry="[&lt;ADJP.adj&gt;]N" pred="adj_arg1" arg1="c79"
+908	914	phrase	id="c79" cat="NX" xcat="" head="t34" sem_head="t34" lex_head="t34"
+908	914	word	id="t34" cat="np" pos="NNS" base="case" lexentry="[D&lt;N.3sg&gt;]_lxm-plural_noun_rule" pred="noun_arg0"
+914	929	phrase	id="c81" cat="PN" xcat="" head="c82" sem_head="c82" schema="head_comp" lex_head="t36"
+914	916	phrase	id="c82" cat="PN" xcat="" head="t36" sem_head="t36" lex_head="t36"
+914	916	word	id="t36" cat="PN" pos="," base="-comma-" lexentry="NP[&lt;COMMA&gt;NP]" pred="app_arg12" arg1="c77" arg2="c83"
+916	929	phrase	id="c83" cat="NP" xcat="" head="c84" sem_head="c84" schema="empty_spec_head" lex_head="t37"
+916	929	phrase	id="c84" cat="NX" xcat="" head="c85" sem_head="c85" schema="mod_head" lex_head="t37"
+916	920	phrase	id="c86" cat="ADJP" xcat="" head="t38" sem_head="t38" lex_head="t38"
+916	920	word	id="t38" cat="ADJ" pos="CD" base="-number-" lexentry="[&lt;ADJP.adj&gt;]N" pred="adj_arg1" arg1="c85"
+920	929	phrase	id="c85" cat="NX" xcat="" head="t37" sem_head="t37" lex_head="t37"
+920	929	word	id="t37" cat="np" pos="NNS" base="control" lexentry="[D&lt;N.3sg&gt;]_lxm-plural_noun_rule" pred="noun_arg0"
+929	931	phrase	id="c75" cat="PN" xcat="" head="t39" sem_head="t39" lex_head="t39"
+929	931	word	id="t39" cat="PN" pos="-RRB-" base="-rrb-" lexentry="[&lt;PU&gt;]" pred="rparen_arg0"
+931	978	phrase	id="c87" cat="VP" xcat="" head="c88" sem_head="c88" schema="head_mod" lex_head="t40"
+931	938	phrase	id="c88" cat="VP" xcat="" head="t40" sem_head="t40" lex_head="t40"
+931	938	word	id="t40" cat="vp" pos="VBN" base="nest" tense="untensed" aspect="none" voice="passive" aux="minus" lexentry="[NP.nom&lt;V.bse&gt;NP.acc]_lxm-passive_l_adjunct_rule-drop_by_rule" pred="verb_arg12" arg2="c45" arg1="unk"
+938	978	phrase	id="c89" cat="PP" xcat="" head="c90" sem_head="c90" schema="head_comp" lex_head="t41"
+938	945	phrase	id="c90" cat="PX" xcat="" head="t41" sem_head="t41" lex_head="t41"
+938	945	word	id="t41" cat="P" pos="IN" base="within" lexentry="V[&lt;P&gt;NP.acc]_lxm" pred="prep_arg12" arg1="c88" arg2="c91"
+945	978	phrase	id="c91" cat="NP" xcat="" head="c92" sem_head="c92" schema="spec_head" lex_head="t42"
+945	958	phrase	id="c93" cat="DP" xcat="" head="c94" sem_head="c94" schema="subj_head" lex_head="t43"
+945	956	phrase	id="c95" cat="NP" xcat="" head="c96" sem_head="c96" schema="spec_head" lex_head="t44"
+945	949	phrase	id="c97" cat="DP" xcat="" head="t45" sem_head="t45" lex_head="t45"
+945	949	word	id="t45" cat="D" pos="DT" base="the" lexentry="[&lt;D&gt;]N" pred="det_arg1" arg1="c96"
+949	956	phrase	id="c96" cat="NX" xcat="" head="t44" sem_head="t44" lex_head="t44"
+949	956	word	id="t44" cat="np" pos="NNPS" base="nurse" lexentry="[D&lt;N.3sg&gt;]_lxm-plural_noun_rule" pred="noun_arg0"
+956	958	phrase	id="c94" cat="DX" xcat="" head="t43" sem_head="t43" lex_head="t43"
+956	958	word	id="t43" cat="D" pos="POS" base="&apos;" lexentry="[NP.nom&lt;D&gt;]N" pred="poss_arg12" arg1="c92" arg2="c95"
+958	978	phrase	id="c92" cat="NX" xcat="" head="c98" sem_head="c98" schema="mod_head" lex_head="t42"
+958	965	phrase	id="c99" cat="NP" xcat="" head="t46" sem_head="t46" lex_head="t46"
+958	965	word	id="t46" cat="np" pos="NNP" base="health" lexentry="[D&lt;N.3sg&gt;]_lxm-noun_adjective_rule" pred="noun_arg1" arg1="c98"
+965	978	phrase	id="c98" cat="NX" xcat="" head="c100" sem_head="c100" schema="mod_head" lex_head="t42"
+965	971	phrase	id="c101" cat="NP" xcat="" head="t47" sem_head="t47" lex_head="t47"
+965	971	word	id="t47" cat="np" pos="NNP" base="study" lexentry="[D&lt;N.3sg&gt;]_lxm-noun_adjective_rule" pred="noun_arg1" arg1="c100"
+971	978	phrase	id="c100" cat="NX" xcat="" head="t42" sem_head="t42" lex_head="t42"
+971	978	word	id="t42" cat="np" pos="NN" base="cohort" lexentry="[D&lt;N.3sg&gt;]_lxm" pred="noun_arg0"
+980	1095	sentence	sentence_id="s2" parse_status="success"
+980	1093	phrase	id="c102" cat="S" xcat="" head="c103" sem_head="c103" schema="subj_head" lex_head="t48"
+980	983	phrase	id="c104" cat="NP" xcat="" head="t49" sem_head="t49" lex_head="t49"
+980	983	word	id="t49" cat="np" pos="PRP" base="we" lexentry="[&lt;NP.no3sg.nom&gt;]" pred="noun_arg0"
+980	980	sentence_type	type="RESULT"
+983	1093	phrase	id="c103" cat="VP" xcat="" head="c105" sem_head="c105" schema="head_comp" lex_head="t48"
+983	992	phrase	id="c105" cat="VX" xcat="" head="t48" sem_head="t48" lex_head="t48"
+983	992	word	id="t48" cat="vp" pos="VBD" base="observe" tense="past" aspect="none" voice="active" aux="minus" lexentry="[NP.nom&lt;V.bse&gt;NP.acc]_lxm-past_verb_rule" pred="verb_arg12" arg1="c104" arg2="c106"
+992	1093	phrase	id="c106" cat="NP" xcat="" head="c107" sem_head="c107" schema="spec_head" lex_head="t50"
+992	995	phrase	id="c108" cat="DP" xcat="" head="t51" sem_head="t51" lex_head="t51"
+992	995	word	id="t51" cat="D" pos="DT" base="no" lexentry="[&lt;D&gt;]N" pred="det_arg1" arg1="c107"
+995	1093	phrase	id="c107" cat="NX" xcat="COOD" head="c109" sem_head="c109" schema="coord_left" lex_head="t50"
+995	1057	phrase	id="c109" cat="NX" xcat="" head="c110" sem_head="c110" schema="head_mod" lex_head="t50"
+995	1007	event_expression	id="ee2" event_type="Binding" arg1="unk" arg2="c111"
+995	1007	phrase	id="c110" cat="NX" xcat="" head="t50" sem_head="t50" lex_head="t50"
+995	1007	word	id="t50" cat="np" pos="NN" base="association" lexentry="[D&lt;N.3sg&gt;]_lxm" pred="noun_arg0"
+1007	1057	phrase	id="c112" cat="PP" xcat="" head="c113" sem_head="c113" schema="head_comp" lex_head="t52"
+1007	1015	phrase	id="c113" cat="PX" xcat="" head="t52" sem_head="t52" lex_head="t52"
+1007	1015	word	id="t52" cat="P" pos="IN" base="between" lexentry="N[&lt;P&gt;NP.acc]_lxm" pred="prep_arg12" arg1="c110" arg2="c111"
+1015	1057	phrase	id="c111" cat="NP" xcat="" head="c114" sem_head="c114" schema="empty_spec_head" lex_head="t53"
+1015	1057	phrase	id="c114" cat="NX" xcat="COOD" head="c115" sem_head="c115" schema="coord_left" lex_head="t53"
+1015	1029	phrase	id="c115" cat="NX" xcat="" head="c116" sem_head="c116" schema="mod_head" lex_head="t53"
+1015	1020	phrase	id="c117" cat="NP" xcat="" head="t54" sem_head="t54" lex_head="t54"
+1015	1020	word	id="t54" cat="np" pos="NN" base="aib1" lexentry="[D&lt;N.3sg&gt;]_lxm-noun_adjective_rule" pred="noun_arg1" arg1="c116"
+1020	1029	phrase	id="c116" cat="NX" xcat="" head="t53" sem_head="t53" lex_head="t53"
+1020	1029	word	id="t53" cat="np" pos="NN" base="genotype" lexentry="[D&lt;N.3sg&gt;]_lxm" pred="noun_arg0"
+1029	1057	phrase	id="c118" cat="COOD" xcat="" head="c119" sem_head="c119" schema="coord_right" lex_head="t55"
+1029	1033	phrase	id="c119" cat="CONJP" xcat="" head="t55" sem_head="t55" lex_head="t55"
+1029	1033	word	id="t55" cat="CONJ" pos="CC" base="and" lexentry="[N&lt;CONJP&gt;N]" pred="coord_arg12" arg1="c115" arg2="c120"
+1033	1057	phrase	id="c120" cat="NX" xcat="" head="c121" sem_head="c121" schema="mod_head" lex_head="t56"
+1033	1040	phrase	id="c122" cat="NP" xcat="" head="t57" sem_head="t57" lex_head="t57"
+1033	1040	word	id="t57" cat="np" pos="NN" base="breast" lexentry="[D&lt;N.3sg&gt;]_lxm-noun_adjective_rule" pred="noun_arg1" arg1="c121"
+1040	1057	phrase	id="c121" cat="NX" xcat="" head="c123" sem_head="c123" schema="mod_head" lex_head="t56"
+1040	1047	phrase	id="c124" cat="NP" xcat="" head="t58" sem_head="t58" lex_head="t58"
+1040	1047	word	id="t58" cat="np" pos="NN" base="cancer" lexentry="[D&lt;N.3sg&gt;]_lxm-noun_adjective_rule" pred="noun_arg1" arg1="c123"
+1047	1057	event_expression	id="ee3" event_type="Gene_expression" arg1="unk" arg2="c120"
+1047	1057	phrase	id="c123" cat="NX" xcat="" head="t56" sem_head="t56" lex_head="t56"
+1047	1057	word	id="t56" cat="np" pos="NN" base="incidence" lexentry="[D&lt;N.3sg&gt;]_lxm" pred="noun_arg0"
+1057	1093	phrase	id="c125" cat="COOD" xcat="" head="c126" sem_head="c126" schema="coord_right" lex_head="t59"
+1057	1062	phrase	id="c126" cat="CONJP" xcat="" head="c127" sem_head="c127" schema="mod_head" lex_head="t59"
+1057	1059	phrase	id="c128" cat="PN" xcat="" head="t60" sem_head="t60" lex_head="t60"
+1057	1059	word	id="t60" cat="PN" pos="," base="-comma-" lexentry="[&lt;COMMA&gt;]CONJ" pred="punct_arg1" arg1="c127"
+1059	1062	phrase	id="c127" cat="CONJP" xcat="" head="t59" sem_head="t59" lex_head="t59"
+1059	1062	word	id="t59" cat="CONJ" pos="CC" base="or" lexentry="[N&lt;CONJP&gt;N]" pred="coord_arg12" arg1="c109" arg2="c129"
+1062	1093	phrase	id="c129" cat="NX" xcat="" head="c130" sem_head="c130" schema="mod_head" lex_head="t61"
+1062	1071	phrase	id="c131" cat="ADJP" xcat="" head="t62" sem_head="t62" lex_head="t62"
+1062	1071	word	id="t62" cat="ADJ" pos="JJ" base="specific" lexentry="[&lt;ADJP.adj&gt;]N" pred="adj_arg1" arg1="c130"
+1071	1093	phrase	id="c130" cat="NX" xcat="" head="c132" sem_head="c132" schema="mod_head" lex_head="t61"
+1071	1077	phrase	id="c133" cat="NP" xcat="" head="t63" sem_head="t63" lex_head="t63"
+1071	1077	word	id="t63" cat="np" pos="NN" base="tumor" lexentry="[D&lt;N.3sg&gt;]_lxm-noun_adjective_rule" pred="noun_arg1" arg1="c132"
+1077	1093	phrase	id="c132" cat="NX" xcat="" head="t61" sem_head="t61" lex_head="t61"
+1077	1093	word	id="t61" cat="np" pos="NNS" base="characteristic" lexentry="[D&lt;N.3sg&gt;]_lxm-plural_noun_rule" pred="noun_arg0"
+1095	1247	sentence	sentence_id="s3" parse_status="success"
+1095	1245	phrase	id="c134" cat="S" xcat="" head="c135" sem_head="c135" schema="subj_head" lex_head="t64"
+1095	1110	phrase	id="c136" cat="NP" xcat="" head="c137" sem_head="c137" schema="spec_head" lex_head="t65"
+1095	1101	phrase	id="c138" cat="DP" xcat="" head="t66" sem_head="t66" lex_head="t66"
+1095	1101	word	id="t66" cat="D" pos="DT" base="these" lexentry="[&lt;D&gt;]N" pred="det_arg1" arg1="c137"
+1095	1095	sentence_type	type="CONCLUSION"
+1101	1110	phrase	id="c137" cat="NX" xcat="" head="t65" sem_head="t65" lex_head="t65"
+1101	1110	word	id="t65" cat="np" pos="NNS" base="finding" lexentry="[D&lt;N.3sg&gt;]_lxm-plural_noun_rule" pred="noun_arg0"
+1110	1245	phrase	id="c135" cat="VP" xcat="" head="c139" sem_head="c139" schema="head_comp" lex_head="t64"
+1110	1118	phrase	id="c139" cat="VX" xcat="" head="t64" sem_head="t64" lex_head="t64"
+1110	1118	word	id="t64" cat="vp" pos="VBP" base="suggest" tense="present" aspect="none" voice="active" aux="minus" lexentry="[NP.nom&lt;V.bse&gt;CP]_lxm-no_singular3rd_verb_rule" pred="verb_arg12" arg1="c136" arg2="c140"
+1118	1245	phrase	id="c140" cat="CP" xcat="" head="c141" sem_head="c142" schema="head_comp" lex_head="t67"
+1118	1123	phrase	id="c141" cat="CX" xcat="" head="t67" sem_head="t67" lex_head="t67"
+1118	1123	word	id="t67" cat="C" pos="IN" base="that" lexentry="[&lt;C&gt;S.decl]" pred="comp_arg1" arg1="c142"
+1123	1245	phrase	id="c142" cat="S" xcat="" head="c143" sem_head="c143" schema="subj_head" lex_head="t68"
+1123	1144	phrase	id="c144" cat="NP" xcat="" head="c145" sem_head="c145" schema="empty_spec_head" lex_head="t69"
+1123	1144	phrase	id="c145" cat="NX" xcat="" head="c146" sem_head="c146" schema="mod_head" lex_head="t69"
+1123	1128	phrase	id="c147" cat="NP" xcat="" head="t70" sem_head="t70" lex_head="t70"
+1123	1128	word	id="t70" cat="np" pos="NN" base="aib1" lexentry="[D&lt;N.3sg&gt;]_lxm-noun_adjective_rule" pred="noun_arg1" arg1="c146"
+1128	1144	phrase	id="c146" cat="NX" xcat="" head="c148" sem_head="c148" schema="mod_head" lex_head="t69"
+1128	1135	phrase	id="c149" cat="NP" xcat="" head="t71" sem_head="t71" lex_head="t71"
+1128	1135	word	id="t71" cat="np" pos="NN" base="repeat" lexentry="[D&lt;N.3sg&gt;]_lxm-noun_adjective_rule" pred="noun_arg1" arg1="c148"
+1135	1144	phrase	id="c148" cat="NX" xcat="" head="t69" sem_head="t69" lex_head="t69"
+1135	1144	word	id="t69" cat="np" pos="NN" base="genotype" lexentry="[D&lt;N.3sg&gt;]_lxm" pred="noun_arg0"
+1144	1245	phrase	id="c143" cat="VP" xcat="" head="c150" sem_head="c151" schema="head_comp" lex_head="t68"
+1144	1153	phrase	id="c150" cat="VX" xcat="" head="c152" sem_head="c152" schema="head_mod" lex_head="t68"
+1144	1149	phrase	id="c152" cat="VX" xcat="" head="t68" sem_head="t68" lex_head="t68"
+1144	1149	word	id="t68" cat="vp" pos="VBZ" base="do" aux="do" lexentry="[NP&lt;V.do.bse&gt;VP.bse]_sctl_lxm-singular3rd_verb_rule" pred="aux_arg12" arg1="c144" arg2="c151"
+1149	1153	phrase	id="c153" cat="ADVP" xcat="" head="t72" sem_head="t72" lex_head="t72"
+1149	1153	word	id="t72" cat="ADV" pos="RB" base="not" lexentry="V[&lt;ADVP&gt;]" pred="adj_arg1" arg1="c151"
+1153	1245	phrase	id="c151" cat="VP" xcat="" head="c154" sem_head="c154" schema="head_comp" lex_head="t73"
+1153	1163	event_expression	id="ee4" event_type="Regulation" arg1="c144" arg2="c155"
+1153	1163	phrase	id="c154" cat="VX" xcat="" head="t73" sem_head="t73" lex_head="t73"
+1153	1163	word	id="t73" cat="vp" pos="VB" base="influence" tense="present" aspect="none" voice="active" aux="minus" lexentry="[NP.nom&lt;V.bse&gt;NP.acc]_lxm" pred="verb_arg12" arg1="c144" arg2="c155"
+1163	1245	phrase	id="c155" cat="NP" xcat="" head="c156" sem_head="c156" schema="empty_spec_head" lex_head="t74"
+1163	1245	phrase	id="c156" cat="NX" xcat="" head="c157" sem_head="c157" schema="head_mod" lex_head="t74"
+1163	1219	phrase	id="c157" cat="NX" xcat="" head="c158" sem_head="c158" schema="head_mod" lex_head="t74"
+1163	1197	phrase	id="c158" cat="NX" xcat="" head="c159" sem_head="c159" schema="mod_head" lex_head="t74"
+1163	1178	phrase	id="c160" cat="ADJP" xcat="" head="t75" sem_head="t75" lex_head="t75"
+1163	1178	word	id="t75" cat="ADJ" pos="JJ" base="postmenopausal" lexentry="[&lt;ADJP.adj&gt;]N" pred="adj_arg1" arg1="c159"
+1178	1197	phrase	id="c159" cat="NX" xcat="" head="c161" sem_head="c161" schema="mod_head" lex_head="t74"
+1178	1185	phrase	id="c162" cat="NP" xcat="" head="t76" sem_head="t76" lex_head="t76"
+1178	1185	word	id="t76" cat="np" pos="NN" base="breast" lexentry="[D&lt;N.3sg&gt;]_lxm-noun_adjective_rule" pred="noun_arg1" arg1="c161"
+1185	1197	phrase	id="c161" cat="NX" xcat="" head="c163" sem_head="c163" schema="mod_head" lex_head="t74"
+1185	1192	phrase	id="c164" cat="NP" xcat="" head="t77" sem_head="t77" lex_head="t77"
+1185	1192	word	id="t77" cat="np" pos="NN" base="cancer" lexentry="[D&lt;N.3sg&gt;]_lxm-noun_adjective_rule" pred="noun_arg1" arg1="c163"
+1192	1197	phrase	id="c163" cat="NX" xcat="" head="t74" sem_head="t74" lex_head="t74"
+1192	1197	word	id="t74" cat="np" pos="NN" base="risk" lexentry="[D&lt;N.3sg&gt;]_lxm" pred="noun_arg0"
+1197	1219	phrase	id="c165" cat="PP" xcat="" head="c166" sem_head="c166" schema="head_comp" lex_head="t78"
+1197	1203	phrase	id="c166" cat="PX" xcat="" head="t78" sem_head="t78" lex_head="t78"
+1197	1203	word	id="t78" cat="P" pos="IN" base="among" lexentry="N[&lt;P&gt;NP.acc]_lxm" pred="prep_arg12" arg1="c158" arg2="c167"
+1203	1219	phrase	id="c167" cat="NP" xcat="" head="c168" sem_head="c168" schema="empty_spec_head" lex_head="t79"
+1203	1219	phrase	id="c168" cat="NX" xcat="" head="c169" sem_head="c169" schema="mod_head" lex_head="t79"
+1203	1213	phrase	id="c170" cat="ADJP" xcat="" head="t80" sem_head="t80" lex_head="t80"
+1203	1213	word	id="t80" cat="ADJ" pos="JJ" base="caucasian" lexentry="[&lt;ADJP.adj&gt;]N" pred="adj_arg1" arg1="c169"
+1213	1219	phrase	id="c169" cat="NX" xcat="" head="t79" sem_head="t79" lex_head="t79"
+1213	1219	word	id="t79" cat="np" pos="NNS" base="woman" lexentry="[D&lt;N.3sg&gt;]_lxm-plural_noun_rule" pred="noun_arg0"
+1219	1245	phrase	id="c171" cat="PP" xcat="" head="c172" sem_head="c172" schema="head_comp" lex_head="t81"
+1219	1222	phrase	id="c172" cat="PX" xcat="" head="t81" sem_head="t81" lex_head="t81"
+1219	1222	word	id="t81" cat="P" pos="IN" base="in" lexentry="N[&lt;P&gt;NP.acc]_lxm" pred="prep_arg12" arg1="c157" arg2="c173"
+1222	1245	phrase	id="c173" cat="NP" xcat="" head="c174" sem_head="c174" schema="spec_head" lex_head="t82"
+1222	1226	phrase	id="c175" cat="DP" xcat="" head="t83" sem_head="t83" lex_head="t83"
+1222	1226	word	id="t83" cat="D" pos="DT" base="the" lexentry="[&lt;D&gt;]N" pred="det_arg1" arg1="c174"
+1226	1245	phrase	id="c174" cat="NX" xcat="" head="c176" sem_head="c176" schema="mod_head" lex_head="t82"
+1226	1234	phrase	id="c177" cat="ADJP" xcat="" head="t84" sem_head="t84" lex_head="t84"
+1226	1234	word	id="t84" cat="ADJ" pos="JJ" base="general" lexentry="[&lt;ADJP.adj&gt;]N" pred="adj_arg1" arg1="c176"
+1234	1245	phrase	id="c176" cat="NX" xcat="" head="t82" sem_head="t82" lex_head="t82"
+1234	1245	word	id="t82" cat="np" pos="NN" base="population" lexentry="[D&lt;N.3sg&gt;]_lxm" pred="noun_arg0"
+1247	1396	Affiliation
+1396	1511	AuthorList	CompleteYN="Y"
+1396	1410	Author	ValidYN="Y"
+1396	1403	LastName
+1403	1407	ForeName
+1407	1410	Initials
+1410	1427	Author	ValidYN="Y"
+1410	1420	LastName
+1420	1424	ForeName
+1424	1427	Initials
+1427	1442	Author	ValidYN="Y"
+1427	1438	LastName
+1438	1440	ForeName
+1440	1442	Initials
+1442	1457	Author	ValidYN="Y"
+1442	1450	LastName
+1450	1454	ForeName
+1454	1457	Initials
+1457	1472	Author	ValidYN="Y"
+1457	1465	LastName
+1465	1469	ForeName
+1469	1472	Initials
+1472	1487	Author	ValidYN="Y"
+1472	1480	LastName
+1480	1484	ForeName
+1484	1487	Initials
+1487	1497	Author	ValidYN="Y"
+1487	1493	LastName
+1493	1495	ForeName
+1495	1497	Initials
+1497	1511	Author	ValidYN="Y"
+1497	1504	LastName
+1504	1508	ForeName
+1508	1511	Initials
+1511	1515	Language
+1515	1663	GrantList	CompleteYN="Y"
+1515	1552	Grant
+1515	1523	GrantID
+1523	1526	Acronym
+1526	1538	Agency
+1538	1552	Country
+1552	1589	Grant
+1552	1560	GrantID
+1560	1563	Acronym
+1563	1575	Agency
+1575	1589	Country
+1589	1626	Grant
+1589	1597	GrantID
+1597	1600	Acronym
+1600	1612	Agency
+1612	1626	Country
+1626	1663	Grant
+1626	1634	GrantID
+1634	1637	Acronym
+1637	1649	Agency
+1649	1663	Country
+1663	1749	PublicationTypeList
+1663	1679	PublicationType
+1679	1712	PublicationType
+1712	1749	PublicationType
+1749	1760	ArticleDate	DateType="Electronic"
+1749	1754	Year
+1754	1757	Month
+1757	1760	Day
+1760	1796	MedlineJournalInfo
+1760	1768	Country
+1768	1786	MedlineTA
+1786	1796	NlmUniqueID
+1796	1904	ChemicalList
+1796	1810	Chemical
+1796	1798	RegistryNumber
+1798	1810	NameOfSubstance
+1810	1826	Chemical
+1810	1812	RegistryNumber
+1812	1826	NameOfSubstance
+1826	1850	Chemical
+1826	1828	RegistryNumber
+1828	1850	NameOfSubstance
+1850	1886	Chemical
+1850	1852	RegistryNumber
+1852	1886	NameOfSubstance
+1886	1904	Chemical
+1886	1894	RegistryNumber
+1894	1904	NameOfSubstance
+1904	1907	CitationSubset
+1907	2233	MeshHeadingList
+1907	1913	MeshHeading
+1907	1913	DescriptorName	MajorTopicYN="N"
+1913	1952	MeshHeading
+1913	1930	DescriptorName	MajorTopicYN="N"
+1930	1943	QualifierName	MajorTopicYN="Y"
+1943	1952	QualifierName	MajorTopicYN="N"
+1952	1973	MeshHeading
+1952	1973	DescriptorName	MajorTopicYN="N"
+1973	1995	MeshHeading
+1973	1985	DescriptorName	MajorTopicYN="N"
+1985	1995	QualifierName	MajorTopicYN="N"
+1995	2018	MeshHeading
+1995	2009	DescriptorName	MajorTopicYN="N"
+2009	2018	QualifierName	MajorTopicYN="N"
+2018	2025	MeshHeading
+2018	2025	DescriptorName	MajorTopicYN="N"
+2025	2034	MeshHeading
+2025	2034	DescriptorName	MajorTopicYN="N"
+2034	2053	MeshHeading
+2034	2044	DescriptorName	MajorTopicYN="N"
+2044	2053	QualifierName	MajorTopicYN="N"
+2053	2060	MeshHeading
+2053	2060	DescriptorName	MajorTopicYN="N"
+2060	2083	MeshHeading
+2060	2083	DescriptorName	MajorTopicYN="N"
+2083	2106	MeshHeading
+2083	2106	DescriptorName	MajorTopicYN="N"
+2106	2118	MeshHeading
+2106	2118	DescriptorName	MajorTopicYN="N"
+2118	2144	MeshHeading
+2118	2144	DescriptorName	MajorTopicYN="N"
+2144	2166	MeshHeading
+2144	2166	DescriptorName	MajorTopicYN="Y"
+2166	2179	MeshHeading
+2166	2179	DescriptorName	MajorTopicYN="N"
+2179	2202	MeshHeading
+2179	2202	DescriptorName	MajorTopicYN="N"
+2202	2233	MeshHeading
+2202	2224	DescriptorName	MajorTopicYN="N"
+2224	2233	QualifierName	MajorTopicYN="Y"
+2233	2242	OtherID	Source="NLM"
+2246	3917	entity_annotation
+2248	3914	article	id="medline09n0436:a12112"
+2248	2248	bib	Article.Journal.ISSN="1465-5411"	PMID="11056690"
+2248	2257	PMID
+2257	2268	DateCreated
+2257	2262	Year
+2262	2265	Month
+2265	2268	Day
+2268	2279	DateCompleted
+2268	2273	Year
+2273	2276	Month
+2276	2279	Day
+2279	2290	DateRevised
+2279	2284	Year
+2284	2287	Month
+2287	2290	Day
+2290	3432	Article.orig	PubModel="Print-Electronic"
+2290	2357	Journal
+2290	2300	ISSN	IssnType="Print"
+2300	2309	JournalIssue	CitedMedium="Print"
+2300	2302	Volume
+2302	2304	Issue
+2304	2309	PubDate
+2304	2309	Year
+2309	2338	Title
+2338	2357	ISOAbbreviation
+2357	2420	ArticleTitle
+2379	2384	entity_name	gena_id="GMM047854" species="Mus musculus" db_site="EntrezGene:17979|MGI:1276535|SWISS-PROT:O09000" type="gene_prod" confidence="1" filter_confidence="0.206765" id="entity-0" gene_symbol="Ncoa3"
+2393	2399	event_expression	id="ee0" event_type="Regulation" arg1="c2" arg2="c16"
+2399	2413	entity_name	id="disease0" facta_id="UMLS:C0006142" type="disease"
+2420	2427	Pagination
+2420	2427	MedlinePgn
+2427	2919	Abstract
+2427	2919	AbstractText
+2467	2479	event_expression	id="ee1" event_type="Binding" arg1="unk" arg2="c40"
+2489	2499	entity_name	id="compound94838" facta_id="CAS:56-85-9" type="compound"
+2522	2527	entity_name	gena_id="GHS013636" species="Homo sapiens" db_site="EntrezGene:8202|GDB:9785804|GenAtlas:NCOA3|HUGO:7670|OMIM:601937|PIR:T03851|SWISS-PROT:Q9Y6Q9" type="gene_prod" confidence="1" filter_confidence="0.842944" id="entity-1" gene_symbol="NCOA3"
+2531	2545	entity_name	id="disease1" facta_id="UMLS:C0006142" type="disease"
+2667	2679	event_expression	id="ee2" event_type="Binding" arg1="unk" arg2="c111"
+2687	2692	entity_name	gena_id="GMM047854" species="Mus musculus" db_site="EntrezGene:17979|MGI:1276535|SWISS-PROT:O09000" type="gene_prod" confidence="1" filter_confidence="0.206765" id="entity-2" gene_symbol="Ncoa3"
+2705	2719	entity_name	id="disease2" facta_id="UMLS:C0006142" type="disease"
+2719	2729	event_expression	id="ee3" event_type="Gene_expression" arg1="unk" arg2="c120"
+2743	2749	entity_name	id="disease3" facta_id="UMLS:C0027651" type="disease"
+2795	2800	entity_name	gena_id="GMM047854" species="Mus musculus" db_site="EntrezGene:17979|MGI:1276535|SWISS-PROT:O09000" type="gene_prod" confidence="1" filter_confidence="0.206765" id="entity-3" gene_symbol="Ncoa3"
+2825	2835	event_expression	id="ee4" event_type="Regulation" arg1="c144" arg2="c155"
+2850	2864	entity_name	id="disease4" facta_id="UMLS:C0006142" type="disease"
+2919	3068	Affiliation
+3068	3183	AuthorList	CompleteYN="Y"
+3068	3082	Author	ValidYN="Y"
+3068	3075	LastName
+3075	3079	ForeName
+3079	3082	Initials
+3082	3099	Author	ValidYN="Y"
+3082	3092	LastName
+3092	3096	ForeName
+3096	3099	Initials
+3099	3114	Author	ValidYN="Y"
+3099	3110	LastName
+3110	3112	ForeName
+3112	3114	Initials
+3114	3129	Author	ValidYN="Y"
+3114	3122	LastName
+3122	3126	ForeName
+3126	3129	Initials
+3129	3144	Author	ValidYN="Y"
+3129	3137	LastName
+3137	3141	ForeName
+3141	3144	Initials
+3144	3159	Author	ValidYN="Y"
+3144	3152	LastName
+3152	3156	ForeName
+3156	3159	Initials
+3159	3169	Author	ValidYN="Y"
+3159	3165	LastName
+3165	3167	ForeName
+3167	3169	Initials
+3169	3183	Author	ValidYN="Y"
+3169	3176	LastName
+3176	3180	ForeName
+3180	3183	Initials
+3183	3187	Language
+3187	3335	GrantList	CompleteYN="Y"
+3187	3224	Grant
+3187	3195	GrantID
+3195	3198	Acronym
+3198	3210	Agency
+3210	3224	Country
+3224	3261	Grant
+3224	3232	GrantID
+3232	3235	Acronym
+3235	3247	Agency
+3247	3261	Country
+3261	3298	Grant
+3261	3269	GrantID
+3269	3272	Acronym
+3272	3284	Agency
+3284	3298	Country
+3298	3335	Grant
+3298	3306	GrantID
+3306	3309	Acronym
+3309	3321	Agency
+3321	3335	Country
+3335	3421	PublicationTypeList
+3335	3351	PublicationType
+3351	3384	PublicationType
+3384	3421	PublicationType
+3421	3432	ArticleDate	DateType="Electronic"
+3421	3426	Year
+3426	3429	Month
+3429	3432	Day
+3432	3468	MedlineJournalInfo
+3432	3440	Country
+3440	3458	MedlineTA
+3458	3468	NlmUniqueID
+3468	3576	ChemicalList
+3468	3482	Chemical
+3468	3470	RegistryNumber
+3470	3482	NameOfSubstance
+3482	3498	Chemical
+3482	3484	RegistryNumber
+3484	3498	NameOfSubstance
+3498	3522	Chemical
+3498	3500	RegistryNumber
+3500	3522	NameOfSubstance
+3522	3558	Chemical
+3522	3524	RegistryNumber
+3524	3558	NameOfSubstance
+3558	3576	Chemical
+3558	3566	RegistryNumber
+3566	3576	NameOfSubstance
+3576	3579	CitationSubset
+3579	3905	MeshHeadingList
+3579	3585	MeshHeading
+3579	3585	DescriptorName	MajorTopicYN="N"
+3585	3624	MeshHeading
+3585	3602	DescriptorName	MajorTopicYN="N"
+3602	3615	QualifierName	MajorTopicYN="Y"
+3615	3624	QualifierName	MajorTopicYN="N"
+3624	3645	MeshHeading
+3624	3645	DescriptorName	MajorTopicYN="N"
+3645	3667	MeshHeading
+3645	3657	DescriptorName	MajorTopicYN="N"
+3657	3667	QualifierName	MajorTopicYN="N"
+3667	3690	MeshHeading
+3667	3681	DescriptorName	MajorTopicYN="N"
+3681	3690	QualifierName	MajorTopicYN="N"
+3690	3697	MeshHeading
+3690	3697	DescriptorName	MajorTopicYN="N"
+3697	3706	MeshHeading
+3697	3706	DescriptorName	MajorTopicYN="N"
+3706	3725	MeshHeading
+3706	3716	DescriptorName	MajorTopicYN="N"
+3716	3725	QualifierName	MajorTopicYN="N"
+3725	3732	MeshHeading
+3725	3732	DescriptorName	MajorTopicYN="N"
+3732	3755	MeshHeading
+3732	3755	DescriptorName	MajorTopicYN="N"
+3755	3778	MeshHeading
+3755	3778	DescriptorName	MajorTopicYN="N"
+3778	3790	MeshHeading
+3778	3790	DescriptorName	MajorTopicYN="N"
+3790	3816	MeshHeading
+3790	3816	DescriptorName	MajorTopicYN="N"
+3816	3838	MeshHeading
+3816	3838	DescriptorName	MajorTopicYN="Y"
+3838	3851	MeshHeading
+3838	3851	DescriptorName	MajorTopicYN="N"
+3851	3874	MeshHeading
+3851	3874	DescriptorName	MajorTopicYN="N"
+3874	3905	MeshHeading
+3874	3896	DescriptorName	MajorTopicYN="N"
+3896	3905	QualifierName	MajorTopicYN="Y"
+3905	3914	OtherID	Source="NLM"

@@ -1,0 +1,35 @@
+<!-- SAMPLE QUERY
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/espell.fcgi?db=pubmed&term=brest+cancer
+http://entrezajax.appspot.com/espell?apikey=c4ca4238a0b923820dcc509a6f75849b&db=pubmed&term=breastcancar
+-->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+var search_term = "Venter JC[Auth]";
+
+$(document).ready(function() {
+
+	args = {'apikey' : 'c4ca4238a0b923820dcc509a6f75849b',
+	        'db' : 'pubmed',
+	        'term' : 'breast cancar'};
+	$.getJSON('http://entrezajax.appspot.com/espell?callback=?', args, function(data) {
+		$('#result').html("GO!");
+		$("<div/>").html(data.CorrectedQuery).appendTo('#result');
+		if(data.CorrectedQuery.length) {
+			var result = data.Query + " should be spelt " + data.CorrectedQuery;
+		} else {
+			var result = data.Query + " is spelt correctly or no spelling suggestions could be made";
+		}
+		$("<div/>").html(result).appendTo('#result');
+//		$("<div/>").html(data).appendTo('#result');
+//		$("<div/>").html("HEIHOO").appendTo('#result');
+	});
+});
+
+</script>
+
+<BODY>
+	<div id="result">
+</BODY>

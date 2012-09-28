@@ -1,0 +1,563 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+
+ 
+<link type="text/css" rel="stylesheet" href="viewer.php_files/table.css">
+
+
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>GN Results for PMC1781589: Upregulation of expression of the chemokine receptor CCR5 by hydrogen peroxide in human monocytes.</title>
+
+	<!--COMMON CSS and JavaScript INCLUDES-->
+	<link type="text/css" rel="stylesheet" href="viewer.php_files/jquery-ui-firefox.css">
+	<link type="text/css" rel="stylesheet" href="viewer.php_files/3column.css">
+	<link type="text/css" rel="stylesheet" href="viewer.php_files/common.css">
+	<link type="text/css" rel="stylesheet" href="viewer.php_files/table.css">
+
+	<script src="viewer.php_files/ga.js" async="" type="text/javascript"></script><script type="text/javascript" src="viewer.php_files/jquery_002.js"></script>
+	<script type="text/javascript" src="viewer.php_files/jquery-ui.js"></script>
+	<script type="text/javascript" src="viewer.php_files/stacktrace.js"></script>
+	<script type="text/javascript" src="viewer.php_files/jquery.js"></script>
+	<script type="text/javascript" src="viewer.php_files/table2CSV.js"></script>
+	<!--script type='text/javascript' src='../jquery.detailsRow.js'></script-->
+
+	<script type="text/javascript">
+		<!--
+		//CONSTANT values, For index.js and viewer.js
+var ABSTRACT	= "abstract"
+var ALIAS	= "alis"
+var ALTNAMES	= "alt"
+var COLOR	= "color"
+var COLORS	= ["#ffff00","#00ffff","#ff00ff","#00ff00","#ff0000"]
+var COLORS2	= ["#ff8800","#00ffaa","#ff0088","#00aa00","#888800","#888888"]
+var CONF	= "conf"
+var DESCRIPT	= "description"
+var DESIGNATE	= "designation"
+var DIV	= "DIV"
+var ENTREZ	= "entrez"
+var ENTREZKEY	= "c4ca4238a0b923820dcc509a6f75849b"
+var FOUND	= "found"
+var FRAGMENT	= "fragment"
+var FRAGMENTS	= "fragments"
+var FULLTEXT	= "fulltext"
+var GENE	= "gene"
+var GENES	= "genes"
+var GNSUITE	= "gnsuite"
+var HEADER	= "header"
+var HIGHLIGHT	= "highlight"
+var HIDE	= "hide"
+var HITS	= "hits"
+var ID	= "id"
+var IDS	= "ids"
+var LIMIT	= 400
+var LINNAEUS	= "linnaeus"
+var MEDIE	= "medie"
+var NAME	= "name"
+var NOMEN	= "nomen"
+var OFFICIAL	= "official"
+var OFFSETS	= "offsets"
+var ORG	= "org"
+var PM	= "pm"
+var PMC	= "pmc"
+var RANK	= "rank"
+var REMOVED	= "removed"
+var SPECIESNCBI	= "species_ncbi_"
+var SWISSPROT	= "swiss-prot"
+var TAB	= "tab"
+var TAX	= "tax"
+var TABLE	= "table"
+var TAXONOMY	= "taxonomy"
+var TITLE	= "title"
+var TOTAL	= "total"
+var WEB	= "web"
+
+		// -->
+	</script>
+	<style type="text/css">
+span.species_ncbi_9606{ background-color: #ff8800; }
+span.species_ncbi_9606:hover{ text-decoration:underline; color:#ff8800; background-color:white; }
+
+.color0 { background-color: #ffff00; }
+.color0:hover { text-decoration: underline; color: red; background-color: white;}
+	
+.color1 { background-color: #00ffff; }
+.color1:hover { text-decoration: underline; color: red; background-color: white;}
+	
+.color2 { background-color: #ff00ff; }
+.color2:hover { text-decoration: underline; color: red; background-color: white;}
+	
+.color3 { background-color: #00ff00; }
+.color3:hover { text-decoration: underline; color: red; background-color: white;}
+	
+.color4 { background-color: #ff0000; }
+.color4:hover { text-decoration: underline; color: red; background-color: white;}
+	</style>
+
+<!--
+<script type="text/javascript" src="http://www-tsujii.is.s.u-tokyo.ac.jp/satre/javascript/all64.js"></script>
+
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"-->
+
+<script type="text/javascript">
+<!--
+//Common post and get values
+var filename	= "../data/IAT/xml/1781589.nxml"
+var pass	=	""
+var pmcid	= "1781589"
+
+//ALLGENES(hash) is { GeneID:
+// {COLOR=>color, CONF=>conf,
+//  OFFSETS=>[segment(i/ABSTRACT), [off-set, ..., off-set] ] }
+var ALLGENES = {"entrezgene190293":{"color":0,"conf":0.357,"fragments":{"abstract":["328-333","412-417","536-541","761-766","853-858"]}},"entrezgene54247":{"color":1,"conf":0.071,"fragments":{"abstract":["616-636"]}},"entrezgene8741":{"color":2,"conf":0.071,"fragments":{"abstract":["893-899"]}},"entrezgene6351":{"color":3,"conf":0.071,"fragments":{"abstract":["900-909"]}},"entrezgene11883":{"color":4,"conf":0.071,"fragments":{"abstract":["198-202"]}},"entrezgene81736":{"color":0,"conf":0.071,"fragments":{"abstract":["490-499"]}},"entrezgene111364":{"color":1,"conf":0.143,"fragments":{"abstract":["534-537","759-762"]}},"entrezgene186":{"color":2,"conf":0.071,"fragments":{"abstract":["374-378"]}},"entrezgene2353":{"color":3,"conf":0.275,"fragments":{"abstract":["937-942"],"1":["'c-fos gene'"]}},"entrezgene1234":{"color":4,"conf":1.5,"fragments":{"abstract":["34-57","240-244","337-341","567-571","658-662","675-679","888-892"],"0":["'chemokine receptor CCR5'"],"1":["'CCR5 ligand MIP-1beta'","'CCR5'","'CCR5 protein'"]}},"entrezgene20311":{"color":0,"conf":0.071,"fragments":{"abstract":["1040-1049"]}},"entrezgene1232":{"color":1,"conf":0.155,"fragments":{"1":["'chemokine receptors'"]}},"entrezgene4790":{"color":2,"conf":0.204,"fragments":{"1":["'NF-kappaB'"]}},"entrezgene729230":{"color":3,"conf":0.396,"fragments":{"1":["'CCR5 mRNA'"]}}}
+// -->
+</script>
+<script type="text/javascript" src="viewer.php_files/viewer.js"></script>
+<script type="text/javascript" src="viewer.php_files/table.js"></script>
+
+<!--HTML Skeleton-->
+</head><body>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17763813-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<h1><a href="http://www-tsujii.is.s.u-tokyo.ac.jp/satre/biocreative/IATdevel/">Index</a>,
+	File: PMCID=1781589,
+	PMID=12745546<!--[<A id=tFile HREF='./pdfs/1781589.pdf'>PDF</A>] -->
+		[<a id="xFile" href="http://www-tsujii.is.s.u-tokyo.ac.jp/satre/biocreative/IATdevel/show.php?file=../data/IAT/xml/1781589.nxml">XML</a>]
+</h1>
+
+
+<div id="leftbox">
+	LOG IN<hr>
+<a href="http://www-tsujii.is.s.u-tokyo.ac.jp/satre/biocreative/IATdevel/docs/GNSuiteSystemDescription.php">DOCUMENTATION</a><br>
+<ol><li>
+<a href="http://www-tsujii.is.s.u-tokyo.ac.jp/satre/biocreative/IATdevel/docs/GNSuiteSystemDescription.php#general">General</a>
+</li><li>
+<a href="http://www-tsujii.is.s.u-tokyo.ac.jp/satre/biocreative/IATdevel/docs/GNSuiteSystemDescription.php#installation">Installation</a>
+</li></ol></div>
+
+
+<div id="middlebox">
+	<div id="DEBUG"></div>	
+	<div class="ui-tabs ui-widget ui-widget-content ui-corner-all" id="toptabs">
+		<ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+			<li class="ui-state-default ui-corner-top"><a href="#medietab">medie</a></li>
+			<li class="ui-state-default ui-corner-top"><a href="#gnsuitetab">gnsuite</a></li>
+			<li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a href="#tabletab">table</a></li>
+			<li class="ui-state-default ui-corner-top"><a href="#taxonomytab">taxonomy</a></li>
+			<li class="ui-state-default ui-corner-top"><a href="#highlighttab">highlight</a></li>
+			<li class="ui-state-default ui-corner-top"><a href="#hidetab">hide</a></li>
+		</ul>
+
+
+		<div class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide" id="medietab">
+			<div id="mediegenes">
+				Genes Found:
+				<span id="medieids">
+
+
+
+
+
+
+
+
+
+
+
+				</span>
+				<span id="mediefound">9</span>
+				/<span id="medietotal">14</span>
+			<div division="nematodes" commonname="nematode" name="Caenorhabditis elegans" id="medieorg6239"><input class="speciesButton" id="button6239" onclick="showHideHighlight(this)" type="CHECKBOX">Caenorhabditis elegans(6239) (nematode) (nematodes): <span alt="entrezgene190293" id="entrezgene190293" class="color0 geneswitch" onclick='getGene("entrezgene190293")'>Y54G9A.4(1) </span></div><div division="primates" commonname="human" name="Homo sapiens" id="medieorg9606"><input class="speciesButton" id="button9606" onclick="showHideHighlight(this)" type="CHECKBOX">Homo sapiens(9606) (human) (primates): <span id="entrezgene1234" class="color4 geneswitch" onclick='getGene("entrezgene1234")'>entrezgene1234</span><span id="entrezgene2353" class="color3 geneswitch" onclick='getGene("entrezgene2353")'>entrezgene2353</span><span alt="entrezgene186" id="entrezgene186" class="color2 geneswitch" onclick='getGene("entrezgene186")'>AGTR2(1) </span><span alt="entrezgene6351" id="entrezgene6351" class="color3 geneswitch" onclick='getGene("entrezgene6351")'>CCL4(1) </span><span alt="entrezgene8741" id="entrezgene8741" class="color2 geneswitch" onclick='getGene("entrezgene8741")'>TNFSF13(1) </span></div><div division="rodents" commonname="house mouse" name="Mus musculus" id="medieorg10090"><input class="speciesButton" id="button10090" onclick="showHideHighlight(this)" type="CHECKBOX">Mus musculus(10090) (house mouse) (rodents): <span alt="entrezgene20311" id="entrezgene20311" class="color0 geneswitch" onclick='getGene("entrezgene20311")'>Cxcl5(1) </span><span alt="entrezgene111364" id="entrezgene111364" class="color1 geneswitch" onclick='getGene("entrezgene111364")'>H2(1) </span><span alt="entrezgene11883" id="entrezgene11883" class="color4 geneswitch" onclick='getGene("entrezgene11883")'>Arsa(1) </span></div><div division="rodents" commonname="Norway rat" name="Rattus norvegicus" id="medieorg10116"><input class="speciesButton" id="button10116" onclick="showHideHighlight(this)" type="CHECKBOX">Rattus norvegicus(10116) (Norway rat) (rodents): <span alt="entrezgene81736" id="entrezgene81736" class="color0 geneswitch" onclick='getGene("entrezgene81736")'>Nfkb1(1) </span><span alt="entrezgene54247" id="entrezgene54247" class="color1 geneswitch" onclick='getGene("entrezgene54247")'>D20h6s209e_mapped(1) </span></div></div><!--END #mediegenes-->
+		</div><!--END #medietab-->
+
+
+		<div class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide" id="gnsuitetab">
+			<div id="gnsuitegenes">
+				Recognized:
+				<span id="gnsuiteids">
+
+
+
+
+
+				</span>
+				<span id="gnsuitefound">5</span>/<span id="gnsuitetotal">14</span>
+			<div division="primates" commonname="human" name="Homo sapiens" id="gnsuiteorg9606"><input class="speciesButton" id="button9606" onclick="showHideHighlight(this)" type="CHECKBOX">Homo sapiens(9606) (human) (primates): <span hits="5" title="entrezgene1234" alt="entrezgene1234" id="entrezgene1234" class="color4 geneswitch entrezgene1234 highlight" onclick='getGene("entrezgene1234")'>CCR5(3) (<a id="hits_entrezgene1234" href="javascript:goNext('entrezgene1234')">::CCR55</a>) </span><span hits="3" title="entrezgene729230" alt="entrezgene729230" id="entrezgene729230" class="color3 geneswitch entrezgene729230 highlight" onclick='getGene("entrezgene729230")'>CCR2(1) (<a id="hits_entrezgene729230" href="javascript:goNext('entrezgene729230')">::CCR23</a>) </span><span hits="3" title="entrezgene2353" alt="entrezgene2353" id="entrezgene2353" class="color3 geneswitch entrezgene2353 highlight" onclick='getGene("entrezgene2353")'>FOS(2) (<a id="hits_entrezgene2353" href="javascript:goNext('entrezgene2353')">::FOS3</a>) </span><span hits="2" title="entrezgene4790" alt="entrezgene4790" id="entrezgene4790" class="color2 geneswitch entrezgene4790 highlight" onclick='getGene("entrezgene4790")'>NFKB1(1) (<a id="hits_entrezgene4790" href="javascript:goNext('entrezgene4790')">::NFKB12</a>) </span><span hits="2" title="entrezgene1232" alt="entrezgene1232" id="entrezgene1232" class="color1 geneswitch entrezgene1232 highlight" onclick='getGene("entrezgene1232")'>CCR3(1) (<a id="hits_entrezgene1232" href="javascript:goNext('entrezgene1232')">::CCR32</a>) </span></div></div><!--END #gnsuitegenes-->
+		</div><!--END #gnsuitetab-->
+
+<div class="ui-tabs-panel ui-widget-content ui-corner-bottom" id="tabletab">
+	<!--Genes in Current Article, PMCID: 1781589<HR-->
+<div id="genetableDIV">
+<div class="left">Genes in PMC1781589</div>
+<div class="right">Number of mentions in:
+ T=Title, A=Abstract, F=Fulltext</div>
+<br>
+<table id="genetable" class="tablesorter">
+  <thead>
+    <tr>
+      <th class="nobg"></th>
+      <th scope="col" class="pmcidheader header">pmcid</th>
+      <th scope="col" class="nameheader header">name</th>
+      <th scope="col" class="geneidheader header">geneid</th>
+      <th scope="col" class="rankheader header">#</th>
+      <th scope="col" class="confheader header headerSortUp">conf</th>
+      <th scope="col" class="taxheader header">tax</th>
+      <th scope="col" class="titleheader header">T</th>
+      <th scope="col" class="abstractheader header">A</th>
+      <th scope="col" class="fulltextheader">F</th>
+      <th class="header" scope="col"><img src="viewer.php_files/delButton.gif" alt="del" title="delete genes" height="15">
+        <img src="viewer.php_files/addButton.gif" alt="add" title="Add Gene" height="15"></th>
+    </tr>
+  </thead>
+  <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <tr id="tableentrezgene1234">
+<th scope="row" class="alt"></th>
+<td>1781589</td>
+<td><span class="color4" onclick="showNames('entrezgene1234')">CCR5</span></td>
+<td>1234</td><td>1</td>
+<td>2.5</td>
+<td><span class="species_ncbi_9606">Homo sapiens</span></td>
+<td>1</td>
+<td>7</td>
+<td>3</td>
+<td scope="row" class="alt"><img src="viewer.php_files/delButton.gif" alt="del" title="delete gene" onclick='javascript:GENETABLE.removeGene("entrezgene1234", "genetable", false)' height="15"></td>
+</tr><tr id="tableentrezgene729230">
+<th scope="row" class="alt"></th>
+<td>1781589</td>
+<td><span class="color3" onclick="showNames('entrezgene729230')">CCR2</span></td>
+<td>729230</td><td>2</td>
+<td>0.396</td>
+<td><span class="species_ncbi_9606">Homo sapiens</span></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td scope="row" class="alt"><img src="viewer.php_files/delButton.gif" alt="del" title="delete gene" onclick='javascript:GENETABLE.removeGene("entrezgene729230", "genetable", false)' height="15"></td>
+</tr><tr id="tableentrezgene2353">
+<th scope="row" class="alt"></th>
+<td>1781589</td>
+<td><span class="color3" onclick="showNames('entrezgene2353')">FOS</span></td>
+<td>2353</td><td>4</td>
+<td>0.275</td>
+<td><span class="species_ncbi_9606">Homo sapiens</span></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td scope="row" class="alt"><img src="viewer.php_files/delButton.gif" alt="del" title="delete gene" onclick='javascript:GENETABLE.removeGene("entrezgene2353", "genetable", false)' height="15"></td>
+</tr><tr id="tableentrezgene4790">
+<th scope="row" class="alt"></th>
+<td>1781589</td>
+<td><span class="color2" onclick="showNames('entrezgene4790')">NFKB1</span></td>
+<td>4790</td><td>5</td>
+<td>0.204</td>
+<td><span class="species_ncbi_9606">Homo sapiens</span></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td scope="row" class="alt"><img src="viewer.php_files/delButton.gif" alt="del" title="delete gene" onclick='javascript:GENETABLE.removeGene("entrezgene4790", "genetable", false)' height="15"></td>
+</tr><tr id="tableentrezgene1232">
+<th scope="row" class="alt"></th>
+<td>1781589</td>
+<td><span class="color1" onclick="showNames('entrezgene1232')">CCR3</span></td>
+<td>1232</td><td>6</td>
+<td>0.155</td>
+<td><span class="species_ncbi_9606">Homo sapiens</span></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td scope="row" class="alt"><img src="viewer.php_files/delButton.gif" alt="del" title="delete gene" onclick='javascript:GENETABLE.removeGene("entrezgene1232", "genetable", false)' height="15"></td>
+</tr><tr id="tableentrezgene54247">
+<th scope="row" class="alt"></th>
+<td>1781589</td>
+<td><span class="color1" onclick="showNames('entrezgene54247')">D20h6s209e_mapped</span></td>
+<td>54247</td><td>8</td>
+<td>0.071</td>
+<td><span class="species_ncbi_10116">Rattus norvegicus</span></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td scope="row" class="alt"><img src="viewer.php_files/delButton.gif" alt="del" title="delete gene" onclick='javascript:GENETABLE.removeGene("entrezgene54247", "genetable", false)' height="15"></td>
+</tr><tr id="tableentrezgene8741">
+<th scope="row" class="alt"></th>
+<td>1781589</td>
+<td><span class="color2" onclick="showNames('entrezgene8741')">TNFSF13</span></td>
+<td>8741</td><td>9</td>
+<td>0.071</td>
+<td><span class="species_ncbi_9606">Homo sapiens</span></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td scope="row" class="alt"><img src="viewer.php_files/delButton.gif" alt="del" title="delete gene" onclick='javascript:GENETABLE.removeGene("entrezgene8741", "genetable", false)' height="15"></td>
+</tr><tr id="tableentrezgene6351">
+<th scope="row" class="alt"></th>
+<td>1781589</td>
+<td><span class="color3" onclick="showNames('entrezgene6351')">CCL4</span></td>
+<td>6351</td><td>10</td>
+<td>0.071</td>
+<td><span class="species_ncbi_9606">Homo sapiens</span></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td scope="row" class="alt"><img src="viewer.php_files/delButton.gif" alt="del" title="delete gene" onclick='javascript:GENETABLE.removeGene("entrezgene6351", "genetable", false)' height="15"></td>
+</tr><tr id="tableentrezgene81736">
+<th scope="row" class="alt"></th>
+<td>1781589</td>
+<td><span class="color0" onclick="showNames('entrezgene81736')">Nfkb1</span></td>
+<td>81736</td><td>12</td>
+<td>0.071</td>
+<td><span class="species_ncbi_10116">Rattus norvegicus</span></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td scope="row" class="alt"><img src="viewer.php_files/delButton.gif" alt="del" title="delete gene" onclick='javascript:GENETABLE.removeGene("entrezgene81736", "genetable", false)' height="15"></td>
+</tr><tr id="tableentrezgene20311">
+<th scope="row" class="alt"></th>
+<td>1781589</td>
+<td><span class="color0" onclick="showNames('entrezgene20311')">Cxcl5</span></td>
+<td>20311</td><td>14</td>
+<td>0.071</td>
+<td><span class="species_ncbi_10090">Mus musculus</span></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td scope="row" class="alt"><img src="viewer.php_files/delButton.gif" alt="del" title="delete gene" onclick='javascript:GENETABLE.removeGene("entrezgene20311", "genetable", false)' height="15"></td>
+</tr></tbody>
+</table>
+<form>
+<input value="export results" title="export" onclick="javascript:GENETABLE.export2CSV(); return false" type="submit">
+</form></div> <!--END genetableDIV-->
+
+<div id="genetableremovedDIV" style="display: block;">
+<a href='javascript:hideHijack("genetableremovedDIV")'>
+Hide!</a>
+<div class="left">Excluded Genes listed below...</div>
+<div class="right">Number of mentions in:
+ T=Title, A=Abstract, F=Fulltext</div>
+<br>
+<table id="genetableremoved" class="tablesorter">
+  <thead>
+    <tr>
+      <th class="nobg"></th>
+      <th scope="col" class="pmcidheader header">pmcid</th>
+      <th scope="col" class="nameheader header">name</th>
+      <th scope="col" class="geneidheader header">geneid</th>
+      <th scope="col" class="rankheader header">#</th>
+      <th scope="col" class="confheader header">conf</th>
+      <th scope="col" class="taxheader header">tax</th>
+      <th scope="col" class="titleheader header">T</th>
+      <th scope="col" class="abstractheader header">A</th>
+      <th scope="col" class="fulltextheader">F</th>
+      <th class="header" scope="col"><img src="viewer.php_files/delButton.gif" alt="del" title="delete genes" height="15">
+        <img src="viewer.php_files/addButton.gif" alt="add" title="Add Gene" height="15"></th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr id="tableentrezgene111364">
+<th scope="row" class="alt"></th>
+<td>1781589</td>
+<td><span class="color1" onclick="showNames('entrezgene111364')">H2</span></td>
+<td>111364</td><td>7</td>
+<td>0.143</td>
+<td><span class="species_ncbi_10090">Mus musculus</span></td>
+<td></td>
+<td>2</td>
+<td></td>
+<td scope="row" class="alt"><img src="viewer.php_files/addButton.gif" alt="add" title="AddGene" onclick='javascript:GENETABLEREMOVED.removeGene("entrezgene111364", "genetable",true)' height="15"></td>
+</tr><tr id="tableentrezgene190293">
+<th scope="row" class="alt"></th>
+<td>1781589</td>
+<td><span class="color0" onclick="showNames('entrezgene190293')">Y54G9A.4</span></td>
+<td>190293</td><td>3</td>
+<td>0.357</td>
+<td><span class="species_ncbi_6239">Caenorhabditis elegans</span></td>
+<td></td>
+<td>5</td>
+<td></td>
+<td scope="row" class="alt"><img src="viewer.php_files/addButton.gif" alt="add" title="AddGene" onclick='javascript:GENETABLEREMOVED.removeGene("entrezgene190293", "genetable",true)' height="15"></td>
+</tr><tr id="tableentrezgene186">
+<th scope="row" class="alt"></th>
+<td>1781589</td>
+<td><span class="color2" onclick="showNames('entrezgene186')">AGTR2</span></td>
+<td>186</td><td>13</td>
+<td>0.071</td>
+<td><span class="species_ncbi_9606">Homo sapiens</span></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td scope="row" class="alt"><img src="viewer.php_files/addButton.gif" alt="add" title="AddGene" onclick='javascript:GENETABLEREMOVED.removeGene("entrezgene186", "genetable",true)' height="15"></td>
+</tr><tr id="tableentrezgene11883">
+<th scope="row" class="alt"></th>
+<td>1781589</td>
+<td><span class="color4" onclick="showNames('entrezgene11883')">Arsa</span></td>
+<td>11883</td><td>11</td>
+<td>0.071</td>
+<td><span class="species_ncbi_10090">Mus musculus</span></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td scope="row" class="alt"><img src="viewer.php_files/addButton.gif" alt="add" title="AddGene" onclick='javascript:GENETABLEREMOVED.removeGene("entrezgene11883", "genetable",true)' height="15"></td>
+</tr></tbody>
+</table>
+</div> <!--END genetableremovedDIV-->
+
+</div><!--END #tabletab-->
+
+		<div class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide" id="taxonomytab">
+<div id="species">
+<hr>gnsuite:<br><div id="gnsuiteorg"></div>
+<hr>medie:<br><div id="medieorg"><span class="species_ncbi_9606" title="9606">human <a href="javascript:goNext('species_ncbi_9606')">(2)</a> 
+9606</span></div>
+<hr>Others predicted by linnaeus:<br><div id="linnaeusorg">
+ 
+</div><!--END linnaeus-tax-->
+<hr>NOT predicted by LINNAEUS:<br><div id="FN"><span class="species_ncbi_6239" name="species_ncbi_6239" onclick="goNext('org6239')">
+6239() 
+</span><span class="species_ncbi_10116" name="species_ncbi_10116" onclick="goNext('org10116')">
+10116() 
+</span><span class="species_ncbi_10090" name="species_ncbi_10090" onclick="goNext('org10090')">
+10090() 
+</span></div><hr>
+</div><!--END species-->
+		</div><!--END #taxonomy-->
+
+		<div class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide" id="highlighttab">
+			highlight<hr>
+			<input class="master" id="AllSpeciesButton" onclick="showHideHighlight(this)" checked="checked" type="CHECKBOX">
+				Species<br>
+			<input class="geneButton" id="AllGenes" onclick="showHideHighlight(this)" checked="checked" type="CHECKBOX">
+				Genes
+			<hr>
+			<div id="settings">
+				<input class="settings" id="caseButton" onclick="switchCase(this)" type="CHECKBOX">Case Sensitive
+				<input class="settings" id="spaceButton" onclick="switchSeparated(this)" checked="checked" type="CHECKBOX">
+					Space/Separators
+			</div>
+		</div><!--END #highlight settings-->
+
+		<div class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide" id="hidetab">&nbsp;</div><!--END #hidetab-->
+
+	</div><!--END toptabs-->
+
+<!--<li><a href="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=12745546&retmode=xml&rettype=abstract"><span>abstract</span></a></li>-->
+
+
+	<div class="ui-tabs ui-widget ui-widget-content ui-corner-all" id="tabs">
+		<ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+			<li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a href="#abstracttab">abstract</a></li>
+			<li class="ui-state-default ui-corner-top"><a href="#fulltexttab">fulltext</a></li>
+			<li class="ui-state-default ui-corner-top"><a href="#webtab">Web</a></li>
+		</ul>
+
+		<div class="ui-tabs-panel ui-widget-content ui-corner-bottom" id="abstracttab">
+			<div id="abstract">
+				Upregulation of expression of the <span title="entrezgene1234" class="entrezgene1234 color4 highlight">chemokine receptor CCR5</span> by hydrogen peroxide in human monocytes.<br>      The objective of this study was to test the hypothesis that an oxidative stress can serve as a signal to regulate the expression of <span title="entrezgene1234" class="entrezgene1234 color4 highlight">CCR5</span>. When human monocytes were exposed to graded concentration of hydrogen peroxide (H(2)O(2)), <span title="entrezgene1234" class="entrezgene1234 color4 highlight">CCR5</span> mRNA levels increased maximally at 4 h of exposure to 200 microM of H(2)O(2) and decreased by 24 h of treatment. Pretreatment of monocytes with the <span title="entrezgene81736" class="entrezgene81736 color0 highlight">NF-kappaB</span> inhibitor BAY 11-8072 blocked the H(2)O(2)-induced augmentation of <span title="entrezgene1234" class="entrezgene1234 color4 highlight">CCR5</span> mRNA expression, suggesting a role for this <span title="entrezgene54247" class="entrezgene54247 color1 highlight">transcription factor</span> in the regulation of <span title="entrezgene1234" class="entrezgene1234 color4 highlight">CCR5</span> expression. <span title="entrezgene1234" class="entrezgene1234 color4 highlight">CCR5</span> protein expression on the plasma membrane was also increased by treatment with H(2)O(2,) as assessed by flow cytometry. This was accompanied by enhanced responsiveness of H(2)O(2)-pretreated monocytes to the <span title="entrezgene1234" class="entrezgene1234 color4 highlight">CCR5</span> <span title="entrezgene8741" class="entrezgene8741 color2 highlight">ligand</span> <span title="entrezgene6351" class="entrezgene6351 color3 highlight">MIP-1beta</span> in terms of chemotaxis and <span title="entrezgene2353" class="entrezgene2353 color3 highlight">c-fos</span> gene activation. Our results suggest that oxidative stress may indeed modulate the expression of <span title="entrezgene20311" class="entrezgene20311 color0 highlight">chemokine</span> <span class="FlyBase:FBgn0003284">receptors</span> and thus contribute to regulation of the inflammatory process.			</div><!--END #abstract-->
+		</div><!--END #abstracttab-->
+
+		<div class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide" id="fulltexttab">
+			<div id="fulltext">
+				<span class="article-title" id="fragment0">
+Upregulation of expression of the <span title="entrezgene1234" class="highlight color4 entrezgene1234">chemokine receptor CCR5</span> by hydrogen peroxide in <span class="species_ncbi_9606" title="species_ncbi_9606" onclick="goNext('species_ncbi_9606')">human</span> monocytes.
+</span>
+<p id="fragment1">
+The objective of this study was to test the hypothesis that an oxidative
+ stress can serve as a signal to regulate the expression of CCR5. When <span class="species_ncbi_9606" title="species_ncbi_9606" onclick="goNext('species_ncbi_9606')">human</span> monocytes were exposed to graded concentration of hydrogen peroxide (H(2)O(2)), <span title="entrezgene729230" class="highlight color3 entrezgene729230">CCR5 mRNA</span>
+ levels increased maximally at 4 h of exposure to 200 microM of H(2)O(2)
+ and decreased by 24 h of treatment. Pretreatment of monocytes with the <span title="entrezgene4790" class="highlight color2 entrezgene4790">NF-kappaB</span> inhibitor BAY 11-8072 blocked the H(2)O(2)-induced augmentation of <span title="entrezgene729230" class="highlight color3 entrezgene729230">CCR5 mRNA</span>
+ expression, suggesting a role for this transcription factor in the 
+regulation of CCR5 expression. CCR5 protein expression on the plasma 
+membrane was also increased by treatment with H(2)O(2,) as assessed by 
+flow cytometry. This was accompanied by enhanced responsiveness of 
+H(2)O(2)-pretreated monocytes to the <span title="entrezgene1234" class="highlight color4 entrezgene1234">CCR5 ligand MIP-1beta</span> in terms of chemotaxis and <span title="entrezgene2353" class="highlight color3 entrezgene2353">c-fos gene</span> activation. Our results suggest that oxidative stress may indeed modulate the expression of <span title="entrezgene1232" class="highlight color1 entrezgene1232">chemokine receptors</span> and thus contribute to regulation of the inflammatory process.
+</p>
+			</div><!--END #fulltext, created in getTextFragmentsAndSpeciesTags() above-->
+		</div><!--END #fulltexttab-->
+
+		<div class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide" id="webtab">
+			Search <a href="http://google.com/#hl=en&amp;q=intitle:%20Upregulation%20of%20expression%20of%20the%20chemokine%20receptor%20CCR5%20by%20hydrogen%20peroxide%20in%20human%20monocytes.">Google: "Upregulation of expression of the chemokine receptor CCR5 by hydrogen peroxide in human monocytes."</a><br><br>
+		Search <a href="http://www.ncbi.nlm.nih.gov/pubmed/12745546">PubMed: 12745546</a><br> 
+		</div><!--END #$webtab-->
+
+	</div><!--END tabs-->
+
+	<div id="result"></div>
+	<div id="showme" class="details"></div>
+</div><!--END #middlebox-->
+
+<div id="rightbox">
+<form action="">
+	Current GENE (or PROTEIN)
+	<hr>
+	<div id="currentGene">
+<span title="entrezgene20311" id="switch_termentrezgene20311" class="geneSwitch entrezgene20311 color0 highlight">Cxcl5</span> (ID:<a href="http://www.ncbi.nlm.nih.gov/gene/20311">entrezgene20311</a>)<br><a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?lvl=0&amp;name=Mus%20musculus">Mus musculus</a></div>
+	<div id="names">
+<ul></ul><li>
+<b>NOMENCLATURE-NAME</b><br>chemokine (C-X-C motif) ligand 5</li><li>
+<b>OTHER-ALIAS</b><br>AMCF-II, ENA-78, GCP-2, LIX, Scyb5, Scyb6</li><li>
+<b>OTHER-DESIGNATIONS</b><br>C-X-C motif chemokine 5|cytokine 
+LIX|granulocyte chemotactic protein-2|small inducible cytokine B 
+subfamily, member 5|small inducible cytokine subfamily B, member 
+15|small-inducible cytokine B5</li><li>
+<b>DESCRIPTION</b><br>chemokine (C-X-C motif) ligand 5</li></div>
+	<img style="display: none;" id="loading" src="viewer.php_files/loading.gif" alt="Loading...">
+	<hr>
+	<input id="annotate" value="Search!" type="submit"><br>
+<hr>
+	<textarea id="newname" rows="3" cols="20">Double-Click a missing gene word, and click Search!</textarea>
+	<div id="annotationresults"></div>
+</form>
+</div>
+
+
+
+
+
+<h3>MENU: <a href="http://www.idi.ntnu.no/%7Esatre/php/lenker.php"> [Links]</a> 
+<a href="http://www-tsujii.is.s.u-tokyo.ac.jp/%7Esatre/akane/"> [Akane]</a> 
+<a href="http://www.idi.ntnu.no/%7Esatre/php/me.php"> [CV]</a> 
+<a href="http://www-tsujii.is.s.u-tokyo.ac.jp/satre/biocreative/"> [BC3]</a> 
+<a href="http://www.citeulike.org/user/satre"> [CiteU]</a> 
+<a href="http://www-tsujii.is.s.u-tokyo.ac.jp/satre/dictionary/"> [Dict]</a> 
+<a href="http://mail.google.com/mail/"> [Gmail]</a> 
+<a href="http://www.idi.ntnu.no/%7Esatre/php/guestbook.php"> [Guest]</a> 
+<a href="http://honyaku.yahoo.co.jp/transtext"> [Jp-Eng]</a> 
+<a href="http://www.idi.ntnu.no/%7Esatre/php/logg.php"> [Log]</a> 
+<a href="http://maps.google.com/maps?q=%E7%B7%B4%E9%A6%AC%E5%8C%BA%E6%B0%B7%E5%B7%9D%E5%8F%B0%EF%BC%93%EF%BC%8D%EF%BC%91%EF%BC%98%EF%BC%8D%EF%BC%91%EF%BC%97"> [Map]</a> 
+<a href="http://www.jorudan.co.jp/english/"> [Metro]</a> 
+<a href="http://www-tsujii.is.s.u-tokyo.ac.jp/publications.cgi?lang=en&amp;fieldtag=author&amp;name=rune&amp;sort=year&amp;disp_art=on&amp;disp_conf=on&amp;disp_phd=on&amp;disp_master=on"> [Papers]</a> 
+<a href="http://www.idi.ntnu.no/%7Esatre/photo/"> [Photo]</a> 
+<a href="https://netcom.no/minside/adressebok.html"> [SMS]</a> 
+<a href="http://www.idi.ntnu.no/%7Esatre/spam"> [Spam]</a> 
+<a href="http://www.idi.ntnu.no/%7Esatre/"> [Main]</a> 
+<br><br>
+Quote:<br>
+
+<b>Anybody who doesn't cut his speed at the sight of a police car
+<br> is probably parked.</b><br>
+</h3>
+
+</body></html>

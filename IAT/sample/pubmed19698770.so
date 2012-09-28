@@ -1,0 +1,215 @@
+0	6975	PubmedArticleSet
+2	6969	PubmedArticle
+8	6037	MedlineCitation	Owner="NLM" Status="MEDLINE"
+18	26	PMID
+36	96	DateCreated
+50	54	Year
+68	70	Month
+84	86	Day
+106	166	DateCompleted
+120	124	Year
+138	140	Month
+154	156	Day
+176	236	DateRevised
+190	194	Year
+208	210	Month
+224	226	Day
+246	3826	Article	PubModel="Print-Electronic"
+260	586	Journal
+278	287	ISSN	IssnType="Electronic"
+305	504	JournalIssue	CitedMedium="Internet"
+327	330	Volume
+352	355	Issue
+377	486	PubDate
+403	407	Year
+433	436	Month
+462	464	Day
+522	540	Title
+558	572	ISOAbbreviation
+600	672	ArticleTitle
+686	724	Pagination
+704	710	MedlinePgn
+738	2009	Abstract
+756	1995	AbstractText
+2023	2154	Affiliation
+2168	3428	AuthorList	CompleteYN="Y"
+2186	2289	Author	ValidYN="Y"
+2208	2222	LastName
+2244	2247	ForeName
+2269	2271	Initials
+2307	2400	Author	ValidYN="Y"
+2329	2333	LastName
+2355	2358	ForeName
+2380	2382	Initials
+2418	2511	Author	ValidYN="Y"
+2440	2444	LastName
+2466	2469	ForeName
+2491	2493	Initials
+2529	2623	Author	ValidYN="Y"
+2551	2556	LastName
+2578	2581	ForeName
+2603	2605	Initials
+2641	2733	Author	ValidYN="Y"
+2663	2666	LastName
+2688	2691	ForeName
+2713	2715	Initials
+2751	2842	Author	ValidYN="Y"
+2773	2778	LastName
+2800	2801	ForeName
+2823	2824	Initials
+2860	2954	Author	ValidYN="Y"
+2882	2890	LastName
+2912	2913	ForeName
+2935	2936	Initials
+2972	3064	Author	ValidYN="Y"
+2994	3000	LastName
+3022	3023	ForeName
+3045	3046	Initials
+3082	3187	Author	ValidYN="Y"
+3104	3123	LastName
+3145	3146	ForeName
+3168	3169	Initials
+3205	3299	Author	ValidYN="Y"
+3227	3235	LastName
+3257	3258	ForeName
+3280	3281	Initials
+3317	3414	Author	ValidYN="Y"
+3339	3347	LastName
+3369	3372	ForeName
+3394	3396	Initials
+3442	3445	Language
+3459	3615	GrantList	CompleteYN="Y"
+3477	3601	Grant
+3499	3511	GrantID
+3533	3547	Agency
+3569	3583	Country
+3629	3726	PublicationTypeList
+3647	3662	PublicationType
+3680	3712	PublicationType
+3740	3816	ArticleDate	DateType="Electronic"
+3758	3762	Year
+3780	3782	Month
+3800	3802	Day
+3836	3941	MedlineJournalInfo
+3850	3861	Country
+3875	3887	MedlineTA
+3901	3908	NlmUniqueID
+3922	3931	ISSNLinking
+3951	4686	ChemicalList
+3965	4031	Chemical
+3983	3984	RegistryNumber
+4002	4017	NameOfSubstance
+4045	4109	Chemical
+4063	4064	RegistryNumber
+4082	4095	NameOfSubstance
+4123	4197	Chemical
+4141	4142	RegistryNumber
+4160	4183	NameOfSubstance
+4211	4275	Chemical
+4229	4230	RegistryNumber
+4248	4261	NameOfSubstance
+4289	4347	Chemical
+4307	4308	RegistryNumber
+4326	4333	NameOfSubstance
+4361	4429	Chemical
+4379	4380	RegistryNumber
+4398	4415	NameOfSubstance
+4443	4503	Chemical
+4461	4462	RegistryNumber
+4480	4489	NameOfSubstance
+4517	4590	Chemical
+4535	4545	RegistryNumber
+4563	4576	NameOfSubstance
+4604	4676	Chemical
+4622	4630	RegistryNumber
+4648	4662	NameOfSubstance
+4696	4698	CitationSubset
+4708	6011	MeshHeadingList
+4722	4761	MeshHeading
+4740	4747	DescriptorName	MajorTopicYN="N"
+4775	4846	MeshHeading
+4793	4802	DescriptorName	MajorTopicYN="N"
+4820	4832	QualifierName	MajorTopicYN="N"
+4860	4909	MeshHeading
+4878	4895	DescriptorName	MajorTopicYN="N"
+4923	4995	MeshHeading
+4941	4951	DescriptorName	MajorTopicYN="N"
+4969	4981	QualifierName	MajorTopicYN="N"
+5009	5050	MeshHeading
+5027	5036	DescriptorName	MajorTopicYN="N"
+5064	5139	MeshHeading
+5082	5095	DescriptorName	MajorTopicYN="N"
+5113	5125	QualifierName	MajorTopicYN="N"
+5153	5196	MeshHeading
+5171	5182	DescriptorName	MajorTopicYN="N"
+5210	5268	MeshHeading
+5228	5254	DescriptorName	MajorTopicYN="N"
+5282	5329	MeshHeading
+5300	5315	DescriptorName	MajorTopicYN="N"
+5343	5386	MeshHeading
+5361	5372	DescriptorName	MajorTopicYN="N"
+5400	5445	MeshHeading
+5418	5431	DescriptorName	MajorTopicYN="N"
+5459	5501	MeshHeading
+5477	5487	DescriptorName	MajorTopicYN="N"
+5515	5553	MeshHeading
+5533	5539	DescriptorName	MajorTopicYN="N"
+5567	5611	MeshHeading
+5585	5597	DescriptorName	MajorTopicYN="N"
+5625	5661	MeshHeading
+5643	5647	DescriptorName	MajorTopicYN="N"
+5675	5804	MeshHeading
+5693	5706	DescriptorName	MajorTopicYN="N"
+5724	5736	QualifierName	MajorTopicYN="N"
+5754	5762	QualifierName	MajorTopicYN="N"
+5780	5790	QualifierName	MajorTopicYN="Y"
+5818	5883	MeshHeading
+5836	5843	DescriptorName	MajorTopicYN="N"
+5861	5869	QualifierName	MajorTopicYN="Y"
+5897	5946	MeshHeading
+5915	5932	DescriptorName	MajorTopicYN="N"
+5960	6001	MeshHeading
+5978	5987	DescriptorName	MajorTopicYN="N"
+6021	6031	OtherID	Source="NLM"
+6043	6967	PubmedData
+6053	6800	History
+6067	6141	PubMedPubDate	PubStatus="received"
+6085	6089	Year
+6107	6108	Month
+6126	6127	Day
+6155	6230	PubMedPubDate	PubStatus="revised"
+6173	6177	Year
+6195	6196	Month
+6214	6216	Day
+6244	6319	PubMedPubDate	PubStatus="accepted"
+6262	6266	Year
+6284	6285	Month
+6303	6305	Day
+6333	6408	PubMedPubDate	PubStatus="aheadofprint"
+6351	6355	Year
+6373	6374	Month
+6392	6394	Day
+6422	6535	PubMedPubDate	PubStatus="entrez"
+6440	6444	Year
+6462	6463	Month
+6481	6483	Day
+6501	6502	Hour
+6520	6521	Minute
+6549	6662	PubMedPubDate	PubStatus="pubmed"
+6567	6571	Year
+6589	6590	Month
+6608	6610	Day
+6628	6629	Hour
+6647	6648	Minute
+6676	6790	PubMedPubDate	PubStatus="medline"
+6694	6698	Year
+6716	6718	Month
+6736	6738	Day
+6756	6757	Hour
+6775	6776	Minute
+6810	6818	PublicationStatus
+6828	6961	ArticleIdList
+6842	6863	ArticleId	IdType="pii"
+6877	6905	ArticleId	IdType="doi"
+6919	6927	ArticleId	IdType="pubmed"
+6941	6951	ArticleId	IdType="pmc"

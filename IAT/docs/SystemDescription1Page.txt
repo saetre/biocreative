@@ -1,0 +1,49 @@
+To: arighi@dbi.udel.edu
+Subject: "IAT pre-validation"
+
+Team#: 93
+Team leader: Rune Sætre
+Name of system (if any): NERSuite
+URL: http://www-tsujii.is.s.u-tokyo.ac.jp/satre/biocreative/IAT/
+
+General description, including what task(s) the system addresses, and the functionalities:
+
+Our NERSuite system addresses the Gene Normalization, and therefore also the Gene Indexing, tasks.
+The (current) front page of the system is a list of PMC identifiers for all the provided full text articles.
+The list contains the number of normalized gene mentions (currently only in the abstract) for each given paper.
+
+The user can click on one of the PMC-IDs to view that paper, and any recognised gene name will be highlighted in the text.
+
+At the top of each paper's visualization page is a summary of all the genes in the paper.
+The user can click on a gene symbol to look up the corresponding gene entry in Entrez Gene.
+
+Behind each gene symbel is the number of mentions in the current paper. The user can see each mention in the text,
+by clicking on the gene-count number to jump to the first occurrence, and then clicking that occurence to jump to the next occurences, and so on.
+
+Status: Is it ready? Partially...
+
+What is done:
+0) Made the 18000 articles available online
+1) Integrated the Gene Normalisation (GN) results from the MEDIE system.
+(http://www-tsujii.is.s.u-tokyo.ac.jp/medie/index.cgi)
+
+MEDIE uses the GENA dictionary, since the entries are normalized using both Entrez Gene, Swiss-Prot, TREMBL, Fly-base and several other major Gene/Protein databases.
+The MEDIE system contains only the genes found in the abstract. When we are done processing the full papers, the remaining normalized gene entries will also be added to the visualization page.
+
+2) The names for a specific gene entry are mapped to the text. For this we use a fast web service providing cached information from Entrez Gene: http://entrezajax.appspot.com/
+
+3) The same web-service is also used to find alternative names for the species for each gene, and to highlight these species names in the text as well.
+
+
+What is still missing:
+0) Complete running the NERSuite and indexing systems on all the 18000 full papers.
+1) Make the list of all the genes for each paper editable.
+2) Make a way to store the edited gene list in some pre-defined format.
+3) Add text-boxes to enter PMCID and GENEid, instead of the current click-a-PMCID interfaces
+4) Add relevance scores to the gene-list, based on frequency, confidence etc.
+
+
+If I can make enough time before the deadline, I will try to improve the Grapical User Interface (GUI) by adding a way to re-rank the listed genes by drag-and-drop.
+
+
+Everything will be kept confidential from other teams until testing by UAG (August 27).

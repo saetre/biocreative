@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD eSummaryResult, 29 October 2004//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eSummary_041029.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>12767</Id>
+	<Item Name="Name" Type="String">Cxcr4</Item>
+	<Item Name="Description" Type="String">chemokine (C-X-C motif) receptor 4</Item>
+	<Item Name="Orgname" Type="String">Mus musculus</Item>
+	<Item Name="Status" Type="Integer">0</Item>
+	<Item Name="CurrentID" Type="Integer">0</Item>
+	<Item Name="Chromosome" Type="String">1</Item>
+	<Item Name="GeneticSource" Type="String">genomic</Item>
+	<Item Name="MapLocation" Type="String">1 67.4 cM</Item>
+	<Item Name="OtherAliases" Type="String">CD184, Cmkar4, LESTR, PB-CKR, PBSF/SDF-1, Sdf1r</Item>
+	<Item Name="OtherDesignations" Type="String">C-X-C chemokine receptor type 4|CXC-R4|CXCR-4|OTTMUSP00000022912|SDF-1 receptor|chemokine (C-X-C) receptor 4|chemokine receptor 4|fusin|leukocyte-derived seven transmembrane domain receptor|leukocyte-expressed seven-transmembrane-domain|pre-B-cell-derived chemokine receptor|stromal cell-derived factor 1 receptor</Item>
+	<Item Name="NomenclatureSymbol" Type="String">Cxcr4</Item>
+	<Item Name="NomenclatureName" Type="String">chemokine (C-X-C motif) receptor 4</Item>
+	<Item Name="NomenclatureStatus" Type="String">Official</Item>
+	<Item Name="TaxID" Type="Integer">10090</Item>
+	<Item Name="Mim" Type="List"></Item>
+	<Item Name="GenomicInfo" Type="List">
+		<Item Name="GenomicInfoType" Type="Structure">
+			<Item Name="ChrLoc" Type="String">1</Item>
+			<Item Name="ChrAccVer" Type="String">NC_000067.5</Item>
+			<Item Name="ChrStart" Type="Integer">130488875</Item>
+			<Item Name="ChrStop" Type="Integer">130484775</Item>
+		</Item>
+	</Item>
+	<Item Name="GeneWeight" Type="Integer">39667</Item>
+	<Item Name="Summary" Type="String"></Item>
+	<Item Name="ChrSort" Type="String">01</Item>
+	<Item Name="ChrStart" Type="Integer">130484775</Item>
+</DocSum>
+
+</eSummaryResult>

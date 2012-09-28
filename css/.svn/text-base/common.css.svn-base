@@ -1,0 +1,50 @@
+/* My additions, for tabulating all files fesults etc. */
+
+a:link { color: black; }
+a:visited { color: #888; }
+
+/* abstract:after { content:"***END OF ABSTRACT***"; } */
+
+body { 	color: #8FF; }
+
+bold { font-weight: bold; }
+
+div#middlebox{
+	background-color: white;
+	color: black;
+}
+
+div.left{
+	float: left;
+}
+
+div.right{
+	float: right;
+}
+
+italic{ font-style:italic; background-color: #eee; }
+
+/* Add a Star before every Reference, shown in block mode */
+ref { display:block; margin:2px; }
+ref-list:before { content:"References"; }
+
+sec { display:block; margin:2px; }
+
+span.count{
+	color: #00F;
+	display: inline-block;
+	width: 150px;
+}/* SPAN.counts */
+
+span.geneswitch{ margin: 2px; padding-left: 2px;}
+span.highlighted{ font-weight: bold; }
+
+/* NCBI/NLM DTD styling */
+span.article-title{ display:block; }
+span.article-title:before { content:"* "; }
+/* Changed title to span with title, to avoid problems with "hidden" titles */
+span.title{ display:block; font-weight: bold; }
+
+span.header1{	display: inline-block; width: 100px; margin: 0px; padding: 3px; background-color: #AAA;}
+span.table1{	display: inline-block; width: 100px; margin: 0px; padding: 3px;}
+

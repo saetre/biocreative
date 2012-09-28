@@ -1,0 +1,285 @@
+
+
+    
+        19698770
+        
+            2009
+            11
+            20
+        
+        
+            2009
+            12
+            09
+        
+        
+            2010
+            04
+            01
+        
+        
+            
+                1879-3169
+                
+                    191
+                    2-3
+                    
+                        2009
+                        Dec
+                        15
+                    
+                
+                Toxicology letters
+                Toxicol. Lett.
+            
+            RACK-1 overexpression protects against goniothalamin-induced cell death.
+            
+                118-22
+            
+            
+                Goniothalamin, a styryllactone, has been shown to induce cytotoxicity via apoptosis in several tumor cell lines. In this study, we have examined the potential role of several genes, which were stably transfected into T-cell lines and which regulate apoptosis in different ways, on goniothalamin-induced cell death. Overexpression of full-length receptor for activated protein C-kinase 1 (RACK-1) and pc3n3, which up-regulates endogenous RACK-1, in both Jurkat and W7.2 T cells resulted in inhibition of goniothalamin-induced cell death as assessed by MTT and clonogenic assays. However, overexpression of rFau (antisense sequence to Finkel-Biskis-Reilly murine sarcoma virus-associated ubiquitously expressed gene) in W7.2 cells did not confer resistance to goniothalamin-induced cell death. Etoposide, a clinically used cytotoxic agent, was equipotent in causing cytotoxicity in all the stable transfectants. Assessment of DNA damage by Comet assay revealed goniothalamin-induced DNA strand breaks as early as 1 h in vector control but this effect was inhibited in RACK-1 and pc3n3 stably transfected W7.2 cells. This data demonstrate that RACK-1 plays a crucial role in regulating cell death signalling pathways induced by goniothalamin.
+            
+            Toxicology and Biocompatibility Laboratory, Faculty of Allied Health Sciences, Universiti Kebangsaan Malaysia. salmaan@medic.ukm.my
+            
+                
+                    Inayat-Hussain
+                    S H
+                    SH
+                
+                
+                    Wong
+                    L T
+                    LT
+                
+                
+                    Chan
+                    K M
+                    KM
+                
+                
+                    Rajab
+                    N F
+                    NF
+                
+                
+                    Din
+                    L B
+                    LB
+                
+                
+                    Harun
+                    R
+                    R
+                
+                
+                    Kizilors
+                    A
+                    A
+                
+                
+                    Saxena
+                    N
+                    N
+                
+                
+                    Mourtada-Maarabouni
+                    M
+                    M
+                
+                
+                    Farzaneh
+                    F
+                    F
+                
+                
+                    Williams
+                    G T
+                    GT
+                
+            
+            eng
+            
+                
+                    07885/Z/05/Z
+                    Wellcome Trust
+                    United Kingdom
+                
+            
+            
+                Journal Article
+                Research Support, Non-U.S. Gov't
+            
+            
+                2009
+                08
+                19
+            
+        
+        
+            Netherlands
+            Toxicol Lett
+            7709027
+            0378-4274
+        
+        
+            
+                0
+                Coloring Agents
+            
+            
+                0
+                Culture Media
+            
+            
+                0
+                Gnb2-rs1 protein, mouse
+            
+            
+                0
+                Neuropeptides
+            
+            
+                0
+                Pyrones
+            
+            
+                0
+                Tetrazolium Salts
+            
+            
+                0
+                Thiazoles
+            
+            
+                17303-67-2
+                goniothalamin
+            
+            
+                298-93-1
+                thiazolyl blue
+            
+        
+        IM
+        
+            
+                Animals
+            
+            
+                Apoptosis
+                drug effects
+            
+            
+                Blotting, Western
+            
+            
+                Cell Death
+                drug effects
+            
+            
+                Cell Line
+            
+            
+                Cell Survival
+                drug effects
+            
+            
+                Clone Cells
+            
+            
+                Colony-Forming Units Assay
+            
+            
+                Coloring Agents
+            
+            
+                Comet Assay
+            
+            
+                Culture Media
+            
+            
+                DNA Damage
+            
+            
+                Humans
+            
+            
+                Jurkat Cells
+            
+            
+                Mice
+            
+            
+                Neuropeptides
+                biosynthesis
+                genetics
+                physiology
+            
+            
+                Pyrones
+                toxicity
+            
+            
+                Tetrazolium Salts
+            
+            
+                Thiazoles
+            
+        
+        PMC2845802
+    
+    
+        
+            
+                2009
+                7
+                1
+            
+            
+                2009
+                8
+                12
+            
+            
+                2009
+                8
+                12
+            
+            
+                2009
+                8
+                19
+            
+            
+                2009
+                8
+                25
+                9
+                0
+            
+            
+                2009
+                8
+                25
+                9
+                0
+            
+            
+                2009
+                12
+                16
+                6
+                0
+            
+        
+        ppublish
+        
+            S0378-4274(09)01396-4
+            10.1016/j.toxlet.2009.08.012
+            19698770
+            PMC2845802
+        
+    
+
+
+

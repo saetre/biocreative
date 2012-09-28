@@ -1,0 +1,42 @@
+function getAbstract($findpmid, $genes, $colors, $indexfile){
+	#$abstract = file_get_contents("http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=$pmid&retmode=xml&rettype=abstract");
+	$handle = fopen($indexfile, "r");  // open file
+	// loop through results with fgetcsv()
+	$current_pmid = "";
+	while( ($line=fgets($handle)) !== FALSE && $find_pmid!=$current_pmid ){
+		$values = explode("\t", rtrim($line));
+		$pmid = array_shift($values);
+		#if (count($values)){
+			$gene = array_shift($values);
+		#}else{
+			#print "NO genes form PMCID $line<BR>\n";
+		#}
+	}
+	$abstract = 
+	$plain = preg_replace("/<[^>]+\/?>/", "", $abstract);
+	$plain = preg_replace("/\s+/", " ", $plain);
+	
+	if ( preg_match("/<ArticleTitle>(.*)<\/ArticleTitle>/", $abstract, $matches) ){
+		$title = $matches[1];
+	}
+	if ( preg_match("/<MedlinePgn>(.*)<\/MedlinePgn>/", $abstract, $matches) ){
+		$pages = $matches[1];
+		#print "pages: ---$pages---";
+		#print "pages size = ".strlen($pages)."<BR>\n";
+	}
+	if ( preg_match("/<AbstractText>(.*)<\/AbstractText>/", $abstract, $matches) ){
+		$abstract = "$title<BR>";
+		for ($i=0; $i<=strlen($pages); $i++){ $abstract .= " "; }
+		$abstract .= $matches[1];
+	
+		$adjust=strpos($plain, substr($title,0) )+13;
+		print "adjust=$adjust";
+		$abstractTags = makeAbstractTags($genes, $colors, $adjust);
+		$abstract = put_tags($abstract, $abstractTags);
+	}else{
+		print "No abstract?<BR>\n";
+		#print "$abstract...<BR>\n";
+	}#If abstract successfully downloaded from PubMed
+	return $abstract;
+}#getAbstract
+

@@ -1,0 +1,16 @@
+###begin p 26
+###xml 169 172 169 172 <italic xmlns:xlink="http://www.w3.org/1999/xlink">GFP</italic>
+###xml 221 233 221 233 <italic xmlns:xlink="http://www.w3.org/1999/xlink">egl-27::gfp;</italic>
+###xml 241 243 241 243 <xref xmlns:xlink="http://www.w3.org/1999/xlink" ref-type="fig" rid="F2">2a</xref>
+###xml 246 248 246 248 <xref xmlns:xlink="http://www.w3.org/1999/xlink" ref-type="bibr" rid="B15">15</xref>
+###xml 374 375 368 369 <italic xmlns:xlink="http://www.w3.org/1999/xlink">n</italic>
+###xml 397 399 391 393 <xref xmlns:xlink="http://www.w3.org/1999/xlink" ref-type="fig" rid="F2">2b</xref>
+###xml 404 405 398 399 <xref xmlns:xlink="http://www.w3.org/1999/xlink" ref-type="fig" rid="F2">a</xref>
+###xml 575 576 569 570 <italic xmlns:xlink="http://www.w3.org/1999/xlink">n</italic>
+###xml 590 592 584 586 <xref xmlns:xlink="http://www.w3.org/1999/xlink" ref-type="fig" rid="F2">2c</xref>
+###xml 697 699 691 693 <xref xmlns:xlink="http://www.w3.org/1999/xlink" ref-type="fig" rid="F2">2d</xref>
+###xml 700 701 694 695 <xref xmlns:xlink="http://www.w3.org/1999/xlink" ref-type="fig" rid="F2">e</xref>
+###xml 1119 1129 1113 1123 <italic xmlns:xlink="http://www.w3.org/1999/xlink">C. elegans</italic>
+###xml 1119 1129 <span type="species:ncbi:6239">C. elegans</span>
+To determine which tissues are susceptible to RNAi by feeding, we fed bacteria expressing green fluorescent protein (GFP) dsRNA to hermaphrodite worms with a transgenic GFP reporter gene expressed in all somatic tissues (egl-27::gfp; Figure 2a) [15]. After being fed for 24 hours at 15degreesC, GFP expression was markedly reduced compared to similarly treated unfed worms (n = 28; compare Figure 2b and a). After 48 hours, with the exception of the nervous system, GFP was not detectable in somatic tissues; furthermore, neural GFP was dramatically reduced in 91% of worms (n = 22; Figure 2c). A similar level of inhibition of GFP expression was observed after 72 and 96 hours of feeding (Figure 2d,e). Although GFP fluorescence in fed worms was abolished or severely reduced, GFP was sometimes expressed at high levels in late-stage embryos derived from these worms (data not shown). This suggests that some zygotic embryonic transcripts may be difficult to silence, possibly because a continuous supply of dsRNA cannot be provided through the eggshell. In summary, RNAi by feeding efficiently silences genes in most C. elegans somatic tissues; however, the nervous system has a delayed and somewhat less robust response to RNAi compared to other tissues.
+###end p 26

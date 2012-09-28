@@ -1,0 +1,70 @@
+html {margin: 0; padding: 0;}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: verdana, sans-serif;
+	font-size: 80%;
+	background: #ee8 repeat-y url(../css/images/greencol.gif);
+  /*** Image is 180px wide, and 20px high, repeat y-axis ***/
+}
+
+pre {margin: 0; font-family: verdana, sans-serif; font-size: .9em;}
+
+.alignright {margin-top: 0; text-align: right;}
+
+.small {font-size: .9em;}
+
+.menu {position: absolute; top: 0; right: 0; text-align: right; padding: .5em;}
+
+/**********************************************************
+                       Positioning rules
+**********************************************************/
+h1,h3 {
+	/*** The header and footer have backgrounds, to cover the 2-tone body BG  ***/
+	background-color: #c83;	color: #040;
+	border-top: 4px solid #000;
+	border-bottom: 5px solid #000;
+	font-size: 30px;
+	margin: 0;
+	padding:3px;
+}
+
+h3 {
+	/*** The header and footer have backgrounds, to cover the 2-tone body BG  ***/
+	background-color: #638;  color: #fff;  font-size: 13px;
+}
+
+/*** No side padding or borders, to avoid the IE5.x box model problem ***/
+div#leftbox {
+	position: absolute;
+	left: 10px;
+	width: 160px;
+	color: #000;
+	padding-top: 10px;
+}/* leftbox */
+
+#middlebox {
+	margin: 0 20% 0 180px;
+	border-left: 3px solid #000;
+	border-right: 3px solid #000;
+	padding: 10px;
+  /*** This div has a background to cover the 2-tone body BG ***/
+	background-color: #456;
+}/* middlebox */
+
+/*** No side padding or borders, to avoid the IE5.x box model problem ***/
+div#rightbox{
+	position: absolute;
+
+  /*** IE5/mac will show a horizontal scrollbar 
+	if this is less than 16px, or other units are used
+	http://www.l-c-n.com/IE5tests/right_pos/index.shtml ***/           
+	right: 25px;
+	top: 45px;
+
+	width: 17%;
+	color: #820;
+	padding-top: 10px;
+}/* rightbox */
+

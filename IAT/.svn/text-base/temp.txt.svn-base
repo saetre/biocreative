@@ -1,0 +1,21 @@
+Differential effects of Rad52p overexpression on gene targeting and extrachromosomal homologous recombination in a human
+
+		
+		#print around 100 prefixes for all the files
+		$prefixCounter;
+		foreach ($pmcIds as $pmcid => $geneCount ){
+			$prefix = substr($pmcid, 0, 2);
+			if ( array_key_exists($prefixCounter, $prefix){
+				$prefixCounter{$prefix}++;
+			}else{
+				$prefixCounter{$prefix}=1;
+			}#Count all prefixes and their number of files
+		}#foreach possible pmcid
+		foreach ($prefixCounter as $prefix => $filecount){
+			print "<SPAN class='count'>";
+			print "	<A HREF=\"gene2pmcid.php?prefix=$prefix&gene\">$prefix...</A>\n";
+			print "	<SPAN class='found'>$fileCount files</SPAN>\n";
+			print "</SPAN>\n";
+		}//for each possible prefix
+	}#if prefix - else make prefix
+	print "<BR>\n";
