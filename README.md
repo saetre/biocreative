@@ -1,4 +1,4 @@
 biocreative_IAT
 ===============
 
-BioCreative II Interactive Annotation Task
+BioCreative III Interactive Annotation Task
