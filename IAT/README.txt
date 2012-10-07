@@ -1,3 +1,7 @@
+#How to link to the IAT data-folder
+[biocreative]$ ln -s /home/a/17/busstuc/public_html/biocreative_data/IAT/ data
+
+
 Get correct abstract:
 
 http://www-tsujii.is.s.u-tokyo.ac.jp/medie/showxml.cgi?position=medline09n0433-39584026-medline09n0433-39586594&sentence_id=s1
