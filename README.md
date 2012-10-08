@@ -13,7 +13,9 @@ cat .git/config
 #How to merge (local master) and push changes back to GitHub (origin/master)
 # (after "git remote update"  #updates from remote GitHub)
 
-git pull git@github.com:saetre/biocreative.git HEAD (fetch and merge from (remote) origin/master to local master (HEAD)
+# fetch and merge from (remote) origin/master to local master (HEAD)
+
+git pull git@github.com:saetre/biocreative.git HEAD 
 
 #Then add new files
 git add *

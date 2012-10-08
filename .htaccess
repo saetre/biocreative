@@ -1,0 +1,14 @@
+Options All
+DirectoryIndex index.php index.html index.cgi
+AddType application/x-httpd-imap map
+AddType application/x-httpd-cgi .cgi
+AddType application/x-httpd-cgi .xbm
+#AddType text/x-server-parsed-html .html
+#ErrorDocument 500 http://www.idi.ntnu.no/~satre/cgiscripts/500.cgi
+#ErrorDocument 404 http://www.idi.ntnu.no/~satre/cgiscripts/404.cgi
+
+# php directives for setting error level
+php_flag display_errors on
+# report everything except run-time notices.
+php_value error_reporting 8191
+
