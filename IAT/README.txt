@@ -1,5 +1,5 @@
 #How to link to the IAT data-folder
-[biocreative]$ ln -s /home/a/17/busstuc/public_html/biocreative_data/IAT/ data
+[biocreative]$ ln -s /home/a/17/busstuc/public_html/biocreative_data/ data
 
 
 Get correct abstract:
